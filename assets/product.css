@@ -1,0 +1,31 @@
+/* Woo Etsy Sync — products list + product editor */
+.column-wes_etsy { width: 9em; }
+.wes-pill { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; line-height: 18px; border: 1px solid transparent; white-space: nowrap; text-decoration: none; }
+a.wes-pill:hover { filter: brightness(.96); }
+.wes-pill--ok { background: #ecfdf3; color: #15803d; border-color: #bbf7d0; }
+.wes-pill--warn { background: #fffbeb; color: #b45309; border-color: #fde68a; }
+.wes-pill--error { background: #fef2f2; color: #b91c1c; border-color: #fecaca; cursor: help; }
+.wes-pill--info { background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe; }
+.wes-pill--muted { background: #f3f4f6; color: #6b7280; border-color: #e5e7eb; }
+
+#woocommerce-product-data ul.wc-tabs li.wes_etsy_options a::before { content: "\f463"; font-family: dashicons; }
+#woocommerce-product-data ul.wc-tabs li.wes_ebay_options a::before { content: "\f174"; font-family: dashicons; }
+#wes_etsy_panel .wes-card , #wes_ebay_panel .wes-card { margin: 12px; padding: 14px 16px; border: 1px solid #e5e7eb; border-radius: 10px; background: #fafafa; }
+#wes_etsy_panel .wes-card__row , #wes_ebay_panel .wes-card__row { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+#wes_etsy_panel .wes-card__title , #wes_ebay_panel .wes-card__title { font-weight: 600; margin-bottom: 4px; }
+#wes_etsy_panel .wes-card__status , #wes_ebay_panel .wes-card__status { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+#wes_etsy_panel .wes-card__actions , #wes_ebay_panel .wes-card__actions { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+#wes_etsy_panel .wes-card__error , #wes_ebay_panel .wes-card__error { margin-top: 10px; padding: 8px 10px; background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; border-radius: 6px; }
+#wes_etsy_panel .wes-card__msg , #wes_ebay_panel .wes-card__msg { margin-top: 10px; padding: 8px 10px; background: #ecfdf3; color: #14532d; border: 1px solid #bbf7d0; border-radius: 6px; }
+#wes_etsy_panel .wes-card__preview , #wes_ebay_panel .wes-card__preview { margin-top: 10px; max-height: 280px; overflow: auto; background: #fff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 10px; font-size: 12px; white-space: pre-wrap; }
+#wes_etsy_panel .wes-card__link , #wes_ebay_panel .wes-card__link { margin-top: 12px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+#wes_etsy_panel .wes-card__link input , #wes_ebay_panel .wes-card__link input { flex: 1; min-width: 220px; }
+#wes_etsy_panel .wes-muted , #wes_ebay_panel .wes-muted { color: #6b7280; font-size: 12px; }
+#wes_etsy_panel .wes-danger-link , #wes_ebay_panel .wes-danger-link { color: #b91c1c; }
+#wes_etsy_panel .wes-panel-intro , #wes_ebay_panel .wes-panel-intro { color: #6b7280; margin: 4px 12px 0; padding: 0; }
+#wes_etsy_panel .wes-tax-picker , #wes_ebay_panel .wes-tax-picker { position: relative; display: inline-block; width: 50%; }
+#wes_etsy_panel .wes-tax-picker input , #wes_ebay_panel .wes-tax-picker input { width: 100%; }
+#wes_etsy_panel .wes-tax-results , #wes_ebay_panel .wes-tax-results { position: absolute; z-index: 30; left: 0; right: 0; top: 100%; background: #fff; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,.12); max-height: 260px; overflow: auto; }
+#wes_etsy_panel .wes-tax-results div , #wes_ebay_panel .wes-tax-results div { padding: 6px 10px; cursor: pointer; font-size: 12.5px; }
+#wes_etsy_panel .wes-tax-results div:hover , #wes_ebay_panel .wes-tax-results div:hover { background: #fff4ec; }
+#wes_etsy_panel .wes-tax-results small , #wes_ebay_panel .wes-tax-results small { color: #6b7280; display: block; }

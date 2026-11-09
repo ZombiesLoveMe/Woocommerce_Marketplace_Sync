@@ -1,0 +1,4594 @@
+# Copyright (C) 2026 Woo Etsy Sync
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace Sync for WooCommerce 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-09T07:17:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: woo-etsy-sync\n"
+
+#. Plugin Name of the plugin
+#: woo-etsy-sync.php
+#: includes/class-github-updater.php:116
+msgid "Marketplace Sync for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: woo-etsy-sync.php
+msgid "Sell everywhere from WooCommerce: two-way sync with Etsy and eBay, plus automatic product feeds for Google Shopping, Facebook & Instagram, Pinterest, TikTok and Bing. Uses your own keys — no third-party servers."
+msgstr ""
+
+#. Author of the plugin
+#: woo-etsy-sync.php
+msgid "Woo Etsy Sync"
+msgstr ""
+
+#: includes/class-admin.php:42
+#: assets/admin.js:438
+msgid "Marketplace Sync"
+msgstr ""
+
+#: includes/class-admin.php:43
+#: assets/feeds.js:72
+msgid "Marketplaces"
+msgstr ""
+
+#: includes/class-admin.php:53
+#: assets/feeds.js:124
+msgid "Open"
+msgstr ""
+
+#: includes/class-admin.php:124
+msgid "Etsy Sync:"
+msgstr ""
+
+#: includes/class-admin.php:125
+msgid "Etsy needs you to reconnect your shop before syncing can continue."
+msgstr ""
+
+#: includes/class-admin.php:127
+msgid "Reconnect now"
+msgstr ""
+
+#: includes/class-admin.php:134
+#, php-format
+msgid "%d product is syncing to Etsy in the background."
+msgid_plural "%d products are syncing to Etsy in the background."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin.php:136
+msgid "Watch progress"
+msgstr ""
+
+#: includes/class-admin.php:140
+msgid "Etsy Sync: done."
+msgstr ""
+
+#: includes/class-admin.php:153
+#: includes/class-admin.php:157
+#: includes/class-admin.php:310
+#: assets/admin.js:447
+#: assets/admin.js:529
+#: assets/admin.js:870
+#: assets/admin.js:1091
+#: assets/admin.js:1346
+#: assets/feeds.js:37
+msgid "Etsy"
+msgstr ""
+
+#: includes/class-admin.php:167
+msgid "Set to not sync"
+msgstr ""
+
+#: includes/class-admin.php:167
+#: includes/class-ebay-admin.php:116
+#: assets/admin.js:840
+#: assets/ebay.js:30
+#: assets/ebay.js:254
+msgid "Excluded"
+msgstr ""
+
+#: includes/class-admin.php:171
+#: includes/class-ebay-admin.php:119
+#: assets/ebay.js:28
+msgid "Error"
+msgstr ""
+
+#: includes/class-admin.php:174
+#: includes/class-ebay-admin.php:122
+#: assets/ebay.js:29
+msgid "Queued"
+msgstr ""
+
+#: includes/class-admin.php:177
+#: includes/class-admin.php:270
+#: assets/admin.js:840
+msgid "Not on Etsy"
+msgstr ""
+
+#: includes/class-admin.php:180
+#: includes/class-ebay-admin.php:128
+#: assets/ebay.js:33
+msgid "Live"
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "Draft"
+msgstr ""
+
+#: includes/class-admin.php:182
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-admin.php:183
+msgid "Sold out"
+msgstr ""
+
+#: includes/class-admin.php:184
+msgid "Expired"
+msgstr ""
+
+#: includes/class-admin.php:186
+#: assets/admin.js:968
+#: assets/admin.js:1083
+#: assets/ebay.js:308
+#: assets/ebay.js:378
+msgid "Linked"
+msgstr ""
+
+#: includes/class-admin.php:188
+#: assets/admin.js:890
+#: assets/admin.js:938
+msgid "Open on Etsy"
+msgstr ""
+
+#: includes/class-admin.php:202
+#: includes/class-admin.php:247
+msgid "Sync to Etsy"
+msgstr ""
+
+#: includes/class-admin.php:203
+#: assets/admin.js:942
+msgid "Unlink from Etsy"
+msgstr ""
+
+#: includes/class-admin.php:204
+#: includes/class-admin.php:395
+msgid "Don't sync to Etsy"
+msgstr ""
+
+#: includes/class-admin.php:205
+#: assets/admin.js:944
+msgid "Allow syncing to Etsy"
+msgstr ""
+
+#: includes/class-admin.php:255
+msgid "Not allowed"
+msgstr ""
+
+#: includes/class-admin.php:268
+msgid "Etsy: any"
+msgstr ""
+
+#: includes/class-admin.php:269
+#: assets/admin.js:731
+#: assets/admin.js:840
+msgid "On Etsy"
+msgstr ""
+
+#: includes/class-admin.php:271
+msgid "Etsy errors"
+msgstr ""
+
+#: includes/class-admin.php:272
+msgid "Excluded from Etsy"
+msgstr ""
+
+#: includes/class-admin.php:344
+#: includes/class-admin.php:441
+#: includes/class-admin.php:448
+#: includes/class-ebay-admin.php:265
+msgid "Use default"
+msgstr ""
+
+#: includes/class-admin.php:359
+msgid "Etsy status"
+msgstr ""
+
+#: includes/class-admin.php:362
+#, php-format
+msgid "Last synced %s ago"
+msgstr ""
+
+#: includes/class-admin.php:368
+msgid "Update on Etsy now"
+msgstr ""
+
+#: includes/class-admin.php:368
+msgid "List on Etsy now"
+msgstr ""
+
+#: includes/class-admin.php:369
+msgid "Preview"
+msgstr ""
+
+#: includes/class-admin.php:371
+#: includes/class-ebay-admin.php:204
+#: assets/admin.js:957
+#: assets/ebay.js:301
+msgid "Unlink"
+msgstr ""
+
+#: includes/class-admin.php:374
+msgid "Connect Etsy"
+msgstr ""
+
+#: includes/class-admin.php:383
+msgid "Already on Etsy? Link it instead:"
+msgstr ""
+
+#: includes/class-admin.php:385
+#: includes/class-ebay-admin.php:218
+#: assets/admin.js:967
+#: assets/ebay.js:307
+msgid "Link"
+msgstr ""
+
+#: includes/class-admin.php:396
+msgid "Keep this product off Etsy (ignored by bulk syncs and stock updates)."
+msgstr ""
+
+#: includes/class-admin.php:404
+msgid "Optional overrides — leave blank to use your defaults from Marketplaces → Etsy → Settings."
+msgstr ""
+
+#: includes/class-admin.php:409
+msgid "Etsy title"
+msgstr ""
+
+#: includes/class-admin.php:414
+msgid "Up to 140 characters. Leave blank to use the product name / title template."
+msgstr ""
+
+#: includes/class-admin.php:420
+msgid "Etsy tags"
+msgstr ""
+
+#: includes/class-admin.php:422
+msgid "comma, separated, up to 13"
+msgstr ""
+
+#: includes/class-admin.php:424
+msgid "Up to 13 tags, 20 characters each. Leave blank to use product tags."
+msgstr ""
+
+#: includes/class-admin.php:430
+#: assets/admin.js:995
+msgid "Materials"
+msgstr ""
+
+#: includes/class-admin.php:432
+msgid "e.g. cotton, silver"
+msgstr ""
+
+#: includes/class-admin.php:438
+msgid "Who made it?"
+msgstr ""
+
+#: includes/class-admin.php:442
+#: assets/admin.js:629
+#: assets/admin.js:1168
+msgid "I did"
+msgstr ""
+
+#: includes/class-admin.php:443
+#: assets/admin.js:629
+#: assets/admin.js:1168
+msgid "A member of my shop"
+msgstr ""
+
+#: includes/class-admin.php:444
+#: assets/admin.js:629
+#: assets/admin.js:1168
+msgid "Another company or person"
+msgstr ""
+
+#: includes/class-admin.php:455
+msgid "When was it made?"
+msgstr ""
+
+#: includes/class-admin.php:462
+msgid "Etsy category"
+msgstr ""
+
+#: includes/class-admin.php:466
+#: assets/product.js:84
+msgid "Use default (type to search Etsy categories…)"
+msgstr ""
+
+#: includes/class-admin.php:468
+#: assets/admin.js:272
+#: assets/admin.js:910
+#: assets/ebay.js:66
+#: assets/ebay.js:279
+msgid "Clear"
+msgstr ""
+
+#: includes/class-admin.php:474
+#: assets/admin.js:625
+msgid "Shipping profile"
+msgstr ""
+
+#: includes/class-admin.php:475
+msgid "Processing profile"
+msgstr ""
+
+#: includes/class-admin.php:476
+msgid "Shop section"
+msgstr ""
+
+#: includes/class-cache.php:59
+#: assets/admin.js:630
+#: assets/admin.js:676
+#: assets/admin.js:1169
+msgid "Made to order"
+msgstr ""
+
+#: includes/class-cache.php:59
+#: assets/admin.js:676
+msgid "Ready to ship"
+msgstr ""
+
+#: includes/class-cache.php:103
+#, php-format
+msgid "Returns accepted within %d days"
+msgstr ""
+
+#: includes/class-cache.php:103
+msgid "No returns"
+msgstr ""
+
+#: includes/class-cache.php:105
+msgid ", exchanges accepted"
+msgstr ""
+
+#: includes/class-ebay-admin.php:72
+msgid "Product was trashed but the eBay listing could not be ended: "
+msgstr ""
+
+#: includes/class-ebay-admin.php:82
+msgid "Marketplace Sync:"
+msgstr ""
+
+#: includes/class-ebay-admin.php:83
+msgid "eBay needs you to reconnect your account before syncing can continue."
+msgstr ""
+
+#: includes/class-ebay-admin.php:85
+msgid "Reconnect eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:90
+#, php-format
+msgid "%d product(s) are syncing to eBay in the background."
+msgstr ""
+
+#: includes/class-ebay-admin.php:103
+#: includes/class-ebay-admin.php:107
+#: includes/class-ebay-admin.php:172
+#: assets/ebay.js:115
+#: assets/ebay.js:133
+#: assets/ebay.js:179
+#: assets/ebay.js:201
+#: assets/ebay.js:280
+#: assets/ebay.js:387
+#: assets/ebay.js:429
+#: assets/ebay.js:549
+#: assets/ebay.js:557
+#: assets/feeds.js:43
+msgid "eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:125
+#: assets/ebay.js:31
+#: assets/ebay.js:254
+msgid "Not on eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:128
+#: assets/ebay.js:32
+msgid "Ended"
+msgstr ""
+
+#: includes/class-ebay-admin.php:139
+msgid "Sync to eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:140
+#: assets/ebay.js:293
+msgid "Unlink from eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:141
+#: includes/class-ebay-admin.php:227
+msgid "Don't sync to eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:194
+msgid "eBay status"
+msgstr ""
+
+#. translators: %s: eBay item number
+#: includes/class-ebay-admin.php:196
+#, php-format
+msgid "Item %s"
+msgstr ""
+
+#: includes/class-ebay-admin.php:201
+msgid "Update on eBay now"
+msgstr ""
+
+#: includes/class-ebay-admin.php:201
+msgid "List on eBay now"
+msgstr ""
+
+#: includes/class-ebay-admin.php:202
+#: assets/ebay.js:290
+#: assets/ebay.js:321
+msgid "Check with eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:207
+msgid "Connect eBay"
+msgstr ""
+
+#: includes/class-ebay-admin.php:216
+msgid "Already on eBay? Link it instead:"
+msgstr ""
+
+#: includes/class-ebay-admin.php:228
+msgid "Keep this product off eBay."
+msgstr ""
+
+#: includes/class-ebay-admin.php:236
+msgid "Optional overrides — leave blank to use your eBay defaults."
+msgstr ""
+
+#: includes/class-ebay-admin.php:241
+msgid "eBay title"
+msgstr ""
+
+#: includes/class-ebay-admin.php:246
+msgid "Up to 80 characters."
+msgstr ""
+
+#: includes/class-ebay-admin.php:252
+msgid "eBay category ID"
+msgstr ""
+
+#: includes/class-ebay-admin.php:256
+msgid "Leave blank to use your category mapping. Find IDs in Marketplaces → eBay → Settings → Categories."
+msgstr ""
+
+#: includes/class-ebay-admin.php:262
+#: assets/ebay.js:445
+#: assets/feeds.js:211
+msgid "Condition"
+msgstr ""
+
+#: includes/class-ebay-admin.php:266
+#: assets/ebay.js:445
+#: assets/feeds.js:211
+msgid "New"
+msgstr ""
+
+#: includes/class-ebay-admin.php:267
+#: assets/ebay.js:445
+msgid "New other (see details)"
+msgstr ""
+
+#: includes/class-ebay-admin.php:268
+#: assets/ebay.js:445
+msgid "New with defects"
+msgstr ""
+
+#: includes/class-ebay-admin.php:269
+#: assets/ebay.js:445
+msgid "Like new"
+msgstr ""
+
+#: includes/class-ebay-admin.php:270
+#: assets/ebay.js:445
+#: assets/feeds.js:211
+msgid "Used"
+msgstr ""
+
+#: includes/class-ebay-admin.php:277
+#: assets/ebay.js:331
+#: assets/ebay.js:490
+#: assets/ebay.js:533
+msgid "Item specifics"
+msgstr ""
+
+#: includes/class-ebay-admin.php:279
+msgid ""
+"Material: Cotton\n"
+"Type: T-Shirt"
+msgstr ""
+
+#: includes/class-ebay-admin.php:282
+msgid "One per line as Name: Value. Use | for several values."
+msgstr ""
+
+#: includes/class-ebay-api.php:73
+#: includes/class-ebay-api.php:175
+#: includes/class-ebay-api.php:256
+msgid "Could not reach eBay: "
+msgstr ""
+
+#: includes/class-ebay-api.php:79
+#, php-format
+msgid "eBay login failed (HTTP %1$d) %2$s"
+msgstr ""
+
+#: includes/class-ebay-api.php:120
+msgid "Your eBay account is not connected yet. Open Marketplaces → eBay → Settings → Connection."
+msgstr ""
+
+#: includes/class-ebay-api.php:136
+msgid "eBay rejected the saved login (it may have expired or been revoked). Please reconnect eBay."
+msgstr ""
+
+#: includes/class-ebay-api.php:194
+#, php-format
+msgid "eBay said: %1$s (HTTP %2$d)"
+msgstr ""
+
+#: includes/class-ebay-api.php:194
+msgid "unknown error"
+msgstr ""
+
+#: includes/class-ebay-api.php:260
+msgid "Your web host is missing the PHP \"SimpleXML\" extension, which eBay needs. Ask your host to enable it."
+msgstr ""
+
+#: includes/class-ebay-api.php:265
+#, php-format
+msgid "eBay returned an unreadable response (HTTP %d)."
+msgstr ""
+
+#: includes/class-ebay-api.php:288
+msgid "eBay said: "
+msgstr ""
+
+#: includes/class-ebay-linker.php:67
+msgid "Matching eBay listings stopped: "
+msgstr ""
+
+#: includes/class-ebay-linker.php:87
+#, php-format
+msgid "Finished matching eBay listings: %1$d linked, %2$d not matched."
+msgstr ""
+
+#: includes/class-ebay-linker.php:124
+#: includes/class-linker.php:131
+msgid "SKUs on this listing belong to several different WooCommerce products."
+msgstr ""
+
+#: includes/class-ebay-linker.php:145
+#, php-format
+msgid "Matching product #%1$d is already linked to eBay item %2$s."
+msgstr ""
+
+#: includes/class-ebay-linker.php:151
+#, php-format
+msgid "Linked to existing eBay listing %1$s (matched by %2$s)."
+msgstr ""
+
+#: includes/class-ebay-linker.php:203
+#, php-format
+msgid "Imported %1$d eBay listing links from WP-Lister (%2$d skipped)."
+msgstr ""
+
+#: includes/class-ebay-mapper.php:282
+msgid "eBay allows at most 5 variation options per listing."
+msgstr ""
+
+#: includes/class-ebay-mapper.php:348
+msgid "This variable product has no published variations with a price (variations set to \"Any …\" can't be listed on eBay)."
+msgstr ""
+
+#: includes/class-ebay-mapper.php:351
+#, php-format
+msgid "eBay allows up to 250 variations per listing; this product has %d."
+msgstr ""
+
+#: includes/class-ebay-oauth.php:22
+msgid "Add your eBay App ID, Cert ID and RuName first."
+msgstr ""
+
+#: includes/class-ebay-oauth.php:45
+msgid "eBay connection was cancelled."
+msgstr ""
+
+#: includes/class-ebay-oauth.php:46
+msgid "eBay connection was cancelled or refused: "
+msgstr ""
+
+#: includes/class-ebay-oauth.php:51
+#: includes/class-oauth.php:71
+msgid "This connection link has expired. Please click Connect again."
+msgstr ""
+
+#: includes/class-ebay-oauth.php:76
+#, php-format
+msgid "Connected to eBay as %s."
+msgstr ""
+
+#: includes/class-ebay-oauth.php:79
+msgid "Connecting to eBay failed: "
+msgstr ""
+
+#: includes/class-ebay-oauth.php:91
+msgid "Could not switch on eBay's \"out of stock\" option: "
+msgstr ""
+
+#: includes/class-ebay-rest.php:98
+msgid "The RuName is a short name like \"YourName-YourName-MyApp-abcdef\", not a web address. On eBay's User Tokens page it is shown under \"RuName (eBay Redirect URL name)\"."
+msgstr ""
+
+#: includes/class-ebay-rest.php:105
+msgid "Please fill in the App ID, Cert ID and RuName."
+msgstr ""
+
+#: includes/class-ebay-rest.php:123
+msgid "Saved, but eBay did not accept these keys: "
+msgstr ""
+
+#: includes/class-ebay-rest.php:123
+msgid " Check you copied the Production (not Sandbox) App ID and Cert ID."
+msgstr ""
+
+#: includes/class-ebay-rest.php:137
+msgid "Disconnected from eBay."
+msgstr ""
+
+#: includes/class-ebay-rest.php:244
+#: includes/class-ebay-rest.php:315
+msgid "Connect your eBay account first."
+msgstr ""
+
+#: includes/class-ebay-rest.php:255
+#, php-format
+msgid "Queued %d product(s) to sync to eBay."
+msgstr ""
+
+#: includes/class-ebay-rest.php:274
+msgid "Unlinked from eBay."
+msgstr ""
+
+#: includes/class-ebay-rest.php:281
+msgid "Paste an eBay listing link or item number."
+msgstr ""
+
+#: includes/class-ebay-rest.php:285
+msgid "That listing belongs to a different eBay account."
+msgstr ""
+
+#: includes/class-ebay-rest.php:289
+msgid "Linked manually to eBay item "
+msgstr ""
+
+#: includes/class-ebay-scheduler.php:73
+msgid "Stock update to eBay failed: "
+msgstr ""
+
+#: includes/class-ebay-scheduler.php:81
+#, php-format
+msgid "Checked eBay orders: %1$d new sale(s), %2$d stock adjustment(s)."
+msgstr ""
+
+#: includes/class-ebay-scheduler.php:84
+msgid "Checking eBay orders failed: "
+msgstr ""
+
+#: includes/class-ebay-scheduler.php:95
+#, php-format
+msgid "Queued eBay stock updates for %d linked product(s)."
+msgstr ""
+
+#: includes/class-ebay-settings.php:20
+msgid "eBay US (ebay.com)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:21
+msgid "eBay UK (ebay.co.uk)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:22
+msgid "eBay Ireland (ebay.ie)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:23
+msgid "eBay Canada (ebay.ca)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:24
+msgid "eBay Australia (ebay.com.au)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:25
+msgid "eBay Germany (ebay.de)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:26
+msgid "eBay Austria (ebay.at)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:27
+msgid "eBay Switzerland (ebay.ch)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:28
+msgid "eBay France (ebay.fr)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:29
+msgid "eBay Italy (ebay.it)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:30
+msgid "eBay Spain (ebay.es)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:31
+msgid "eBay Netherlands (ebay.nl)"
+msgstr ""
+
+#: includes/class-ebay-settings.php:32
+msgid "eBay Poland (ebay.pl)"
+msgstr ""
+
+#: includes/class-ebay-sync.php:44
+#, php-format
+msgid "eBay item %1$s is already linked to product #%2$d."
+msgstr ""
+
+#: includes/class-ebay-sync.php:70
+msgid "Your eBay account is not connected."
+msgstr ""
+
+#: includes/class-ebay-sync.php:73
+msgid "This product is set to \"Don't sync to eBay\"."
+msgstr ""
+
+#: includes/class-ebay-sync.php:76
+msgid "Grouped, external and downloadable products can't be listed on eBay."
+msgstr ""
+
+#: includes/class-ebay-sync.php:79
+msgid "No eBay category: set a default in eBay → Settings → Listing defaults (or map this product's category)."
+msgstr ""
+
+#: includes/class-ebay-sync.php:83
+msgid "Choose your eBay postage, returns and payment policies in eBay → Settings → Policies & location."
+msgstr ""
+
+#: includes/class-ebay-sync.php:86
+msgid "Add the postcode or town you post from in eBay → Settings → Policies & location."
+msgstr ""
+
+#: includes/class-ebay-sync.php:90
+#: includes/class-product-sync.php:84
+msgid "The product has no price."
+msgstr ""
+
+#: includes/class-ebay-sync.php:93
+msgid "eBay needs photos on an https:// address. Switch your site to HTTPS."
+msgstr ""
+
+#: includes/class-ebay-sync.php:136
+#: includes/class-ebay-sync.php:205
+#: includes/class-product-sync.php:105
+#: includes/class-product-sync.php:438
+msgid "Product not found."
+msgstr ""
+
+#: includes/class-ebay-sync.php:150
+msgid "Out of stock, so it was not listed on eBay. Sync again once it has stock."
+msgstr ""
+
+#: includes/class-ebay-sync.php:155
+msgid "eBay did not return an item number."
+msgstr ""
+
+#: includes/class-ebay-sync.php:166
+msgid "The linked eBay listing has ended or no longer exists — creating a new one."
+msgstr ""
+
+#: includes/class-ebay-sync.php:179
+msgid "eBay accepted the listing with a note: "
+msgstr ""
+
+#: includes/class-ebay-sync.php:185
+#: assets/ebay.js:261
+#: assets/product.js:104
+msgid "Listed on eBay"
+msgstr ""
+
+#: includes/class-ebay-sync.php:185
+msgid "Updated eBay listing"
+msgstr ""
+
+#: includes/class-ebay-sync.php:237
+msgid "eBay requires these item specifics for this category: "
+msgstr ""
+
+#: includes/class-ebay-sync.php:237
+msgid ". Add them under the product's eBay tab or in eBay → Settings → Item specifics."
+msgstr ""
+
+#: includes/class-ebay-sync.php:268
+msgid "eBay listing ended."
+msgstr ""
+
+#: includes/class-ebay-sync.php:306
+msgid "The eBay listing is not active ("
+msgstr ""
+
+#: includes/class-ebay-sync.php:306
+msgid "), so stock was not sent."
+msgstr ""
+
+#: includes/class-ebay-sync.php:343
+#, php-format
+msgid "Stock sent to eBay (%1$d change%2$s)."
+msgstr ""
+
+#: includes/class-ebay-sync.php:346
+#, php-format
+msgid "%d eBay variation(s) could not be matched to WooCommerce (they need matching SKUs), so their stock was left alone."
+msgstr ""
+
+#: includes/class-ebay-sync.php:452
+#, php-format
+msgid "eBay order %1$s: could not tell which variation was sold (SKU \"%2$s\"), so stock was not changed."
+msgstr ""
+
+#: includes/class-ebay-sync.php:456
+#, php-format
+msgid "eBay order %1$s: sold %2$d × \"%3$s\" (stock isn't tracked in WooCommerce)."
+msgstr ""
+
+#: includes/class-ebay-sync.php:462
+#, php-format
+msgid "eBay order %1$s: sold %2$d × \"%3$s\" — WooCommerce stock is now %4$s."
+msgstr ""
+
+#: includes/class-etsy-api.php:49
+msgid "Not connected to Etsy yet. Open Marketplaces → Etsy → Settings → Connection to connect your shop."
+msgstr ""
+
+#: includes/class-etsy-api.php:94
+msgid "Etsy rejected the saved login (it may have been revoked or expired). Please reconnect your shop."
+msgstr ""
+
+#: includes/class-etsy-api.php:145
+#, php-format
+msgid "Etsy login failed (HTTP %1$d) %2$s"
+msgstr ""
+
+#: includes/class-etsy-api.php:223
+msgid "Could not reach Etsy: "
+msgstr ""
+
+#: includes/class-etsy-api.php:256
+#, php-format
+msgid "Etsy said: %1$s (HTTP %2$d)"
+msgstr ""
+
+#: includes/class-feeds-admin.php:46
+msgid "Made a new private feed link (the old one stops working)."
+msgstr ""
+
+#: includes/class-feeds-admin.php:68
+#: assets/feeds.js:232
+msgid "Shopping feeds"
+msgstr ""
+
+#: includes/class-feeds-admin.php:80
+msgid "Used by Google Shopping, Facebook & Instagram, Pinterest and other product feeds."
+msgstr ""
+
+#: includes/class-feeds-admin.php:84
+msgid "Hide from feeds"
+msgstr ""
+
+#: includes/class-feeds-admin.php:85
+msgid "Don't send this product to shopping/social platforms."
+msgstr ""
+
+#: includes/class-feeds-admin.php:93
+msgid "Feed title"
+msgstr ""
+
+#: includes/class-feeds-admin.php:97
+msgid "Optional. Up to 150 characters. Variation options are added automatically."
+msgstr ""
+
+#: includes/class-feeds-admin.php:103
+msgid "Google product category"
+msgstr ""
+
+#: includes/class-feeds-admin.php:105
+msgid "Use category mapping"
+msgstr ""
+
+#: includes/class-feeds-admin.php:107
+msgid "Optional, e.g. \"Home & Garden > Decor\"."
+msgstr ""
+
+#: includes/class-feeds-admin.php:124
+msgid "Hide from shopping feeds"
+msgstr ""
+
+#: includes/class-feeds-admin.php:125
+msgid "Show in shopping feeds"
+msgstr ""
+
+#: includes/class-feeds.php:25
+msgid "Google Shopping"
+msgstr ""
+
+#: includes/class-feeds.php:26
+msgid "Free listings & Shopping ads on Google Search, Images and YouTube."
+msgstr ""
+
+#: includes/class-feeds.php:30
+#: includes/class-feeds.php:61
+#: includes/class-feeds.php:77
+#: includes/class-feeds.php:92
+msgid "Daily"
+msgstr ""
+
+#: includes/class-feeds.php:32
+msgid "Open Google Merchant Center and sign in (it's free). If it asks, verify your website – the Site Kit or Google Listings & Ads plugin can do this in one click."
+msgstr ""
+
+#: includes/class-feeds.php:33
+msgid "Go to <strong>Products → Add products → Add products from a file</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:34
+msgid "Choose <strong>Add a file link</strong>, paste your feed link, and set it to fetch <strong>daily</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:35
+msgid "Click <strong>Continue</strong>. Google checks the feed within a few hours – this page shows a ✓ once Google has collected it."
+msgstr ""
+
+#: includes/class-feeds.php:37
+msgid "Google Listings & Ads"
+msgstr ""
+
+#: includes/class-feeds.php:37
+msgid "already sends products to Google. Use one or the other, or Google will show each product twice."
+msgstr ""
+
+#: includes/class-feeds.php:40
+msgid "Facebook & Instagram"
+msgstr ""
+
+#: includes/class-feeds.php:41
+msgid "Shop tabs, product tags and catalogue ads on Facebook and Instagram."
+msgstr ""
+
+#: includes/class-feeds.php:45
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-feeds.php:47
+msgid "Open <strong>Meta Commerce Manager</strong> and pick (or create) your catalogue."
+msgstr ""
+
+#: includes/class-feeds.php:48
+msgid "Go to <strong>Catalogue → Data sources → Add items → Data feed</strong>."
+msgstr ""
+
+#. translators: %s: currency code
+#: includes/class-feeds.php:50
+#, php-format
+msgid "Choose <strong>Use a URL – scheduled feed</strong>, paste your feed link, and set it to update <strong>every hour</strong>. Currency: %s."
+msgstr ""
+
+#: includes/class-feeds.php:51
+msgid "Click <strong>Upload</strong>. Products appear in your Facebook and Instagram shop once Meta has reviewed them."
+msgstr ""
+
+#: includes/class-feeds.php:53
+msgid "Facebook for WooCommerce"
+msgstr ""
+
+#: includes/class-feeds.php:53
+msgid "already sends products to Meta. Turn off its product sync (or don't use this feed) so your catalogue doesn't get duplicates."
+msgstr ""
+
+#: includes/class-feeds.php:56
+msgid "Pinterest"
+msgstr ""
+
+#: includes/class-feeds.php:57
+msgid "Product Pins and shopping ads on Pinterest."
+msgstr ""
+
+#: includes/class-feeds.php:63
+msgid "Use a Pinterest <strong>business</strong> account and claim your website (Settings → Claimed accounts)."
+msgstr ""
+
+#: includes/class-feeds.php:64
+msgid "Open <strong>Catalogues → Create catalogue → Data source</strong>."
+msgstr ""
+
+#. translators: 1: currency code, 2: country name
+#: includes/class-feeds.php:66
+#, php-format
+msgid "Paste your feed link, choose format <strong>XML</strong>, currency <strong>%1$s</strong> and country <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:67
+msgid "Pinterest checks the feed and turns your products into shoppable Pins (usually within 24 hours)."
+msgstr ""
+
+#: includes/class-feeds.php:69
+msgid "Pinterest for WooCommerce"
+msgstr ""
+
+#: includes/class-feeds.php:69
+msgid "already sends products to Pinterest."
+msgstr ""
+
+#: includes/class-feeds.php:72
+msgid "TikTok catalogue"
+msgstr ""
+
+#: includes/class-feeds.php:73
+msgid "Product catalogue for TikTok shopping ads. (TikTok Shop itself uses its own seller centre.)"
+msgstr ""
+
+#: includes/class-feeds.php:79
+msgid "Open <strong>TikTok Ads Manager → Assets → Catalogues</strong> and create a catalogue (E-commerce)."
+msgstr ""
+
+#: includes/class-feeds.php:80
+msgid "Choose <strong>Add products → Data feed → Scheduled feed</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:81
+msgid "Paste your feed link and set it to update <strong>daily</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:82
+msgid "TikTok reviews the products; approved ones can be used in Shopping ads."
+msgstr ""
+
+#: includes/class-feeds.php:84
+msgid "the TikTok plugin"
+msgstr ""
+
+#: includes/class-feeds.php:84
+msgid "may already send products to TikTok."
+msgstr ""
+
+#: includes/class-feeds.php:87
+msgid "Microsoft Shopping (Bing)"
+msgstr ""
+
+#: includes/class-feeds.php:88
+msgid "Free listings and Shopping ads on Bing, Edge and Copilot."
+msgstr ""
+
+#: includes/class-feeds.php:94
+msgid "In Microsoft Advertising, open <strong>Tools → Microsoft Merchant Center</strong> and create a store (verify your website)."
+msgstr ""
+
+#. translators: %s: country name
+#: includes/class-feeds.php:96
+#, php-format
+msgid "Go to <strong>Catalogues → Feeds → Create feed</strong> and choose country %s."
+msgstr ""
+
+#: includes/class-feeds.php:97
+msgid "Choose <strong>Scheduled download</strong>, paste your feed link, daily."
+msgstr ""
+
+#: includes/class-feeds.php:98
+msgid "Tip: if you already use Google Merchant Center, Microsoft can import from it instead."
+msgstr ""
+
+#: includes/class-feeds.php:103
+msgid "Any other site"
+msgstr ""
+
+#: includes/class-feeds.php:104
+msgid "Comparison sites, marketplaces and apps that accept a Google-format product feed (XML or CSV)."
+msgstr ""
+
+#: includes/class-feeds.php:108
+msgid "As often as the site allows"
+msgstr ""
+
+#: includes/class-feeds.php:110
+msgid "Look in the other site's seller settings for “product feed”, “data feed”, “catalogue URL” or “import from URL”."
+msgstr ""
+
+#: includes/class-feeds.php:111
+msgid "Paste the XML link below. If it wants a spreadsheet instead, use the CSV link."
+msgstr ""
+
+#: includes/class-feeds.php:112
+msgid "If it asks which format: choose <strong>Google Shopping / Google Merchant</strong>."
+msgstr ""
+
+#: includes/class-feeds.php:193
+msgid "Unknown platform."
+msgstr ""
+
+#: includes/class-feeds.php:213
+#, php-format
+msgid "Turned on the %s feed."
+msgstr ""
+
+#: includes/class-feeds.php:226
+#, php-format
+msgid "Turned off the %s feed."
+msgstr ""
+
+#: includes/class-feeds.php:320
+msgid "Feed not found."
+msgstr ""
+
+#: includes/class-feeds.php:457
+msgid "No product photo – most platforms reject products without one."
+msgstr ""
+
+#: includes/class-feeds.php:477
+msgid "No price, so it was left out."
+msgstr ""
+
+#. translators: %s: folder path
+#: includes/class-feeds.php:666
+#, php-format
+msgid "The feed files couldn't be saved in %s, so feeds are built each time a platform collects them (slower, but they still work). Ask your host to make the uploads folder writable."
+msgstr ""
+
+#: includes/class-github-updater.php:126
+msgid "See the release on GitHub."
+msgstr ""
+
+#: includes/class-github-updater.php:127
+msgid "Sell everywhere from WooCommerce: Etsy and eBay two-way sync, plus product feeds for Google, Facebook & Instagram, Pinterest, TikTok and Bing."
+msgstr ""
+
+#: includes/class-github-updater.php:155
+msgid "Check for updates"
+msgstr ""
+
+#: includes/class-linker.php:64
+#, php-format
+msgid "Finished matching Etsy listings: %1$d linked, %2$d not matched."
+msgstr ""
+
+#: includes/class-linker.php:79
+msgid "Matching Etsy listings stopped: "
+msgstr ""
+
+#: includes/class-linker.php:159
+#, php-format
+msgid "Matching product #%1$d is already linked to listing %2$d."
+msgstr ""
+
+#: includes/class-linker.php:173
+#, php-format
+msgid "Linked to existing Etsy listing (matched by %s)."
+msgstr ""
+
+#: includes/class-mapper.php:526
+#, php-format
+msgid "Etsy allows at most 2 variation options per listing, but this product varies by %1$d attributes (%2$s)."
+msgstr ""
+
+#: includes/class-mapper.php:529
+msgid "This variable product has no attributes used for variations."
+msgstr ""
+
+#: includes/class-mapper.php:583
+msgid "This variable product has no published variations."
+msgstr ""
+
+#: includes/class-migrate.php:115
+#, php-format
+msgid "Imported from Platy Syncer: %1$d product links, %2$d category/shipping mappings (%3$d skipped)."
+msgstr ""
+
+#: includes/class-oauth.php:25
+msgid "Add your Etsy keystring and shared secret first."
+msgstr ""
+
+#: includes/class-oauth.php:63
+msgid "Etsy connection was cancelled or refused: "
+msgstr ""
+
+#: includes/class-oauth.php:88
+msgid "This Etsy account does not have a shop yet."
+msgstr ""
+
+#: includes/class-oauth.php:107
+#, php-format
+msgid "Connected to Etsy shop \"%s\"."
+msgstr ""
+
+#: includes/class-oauth.php:110
+msgid "Connecting to Etsy failed: "
+msgstr ""
+
+#: includes/class-plugin.php:113
+msgid "Product was trashed but the Etsy listing could not be deactivated: "
+msgstr ""
+
+#: includes/class-product-sync.php:26
+#, php-format
+msgid "Etsy listing %1$d is already linked to product #%2$d."
+msgstr ""
+
+#: includes/class-product-sync.php:63
+msgid "Your Etsy shop is not connected."
+msgstr ""
+
+#: includes/class-product-sync.php:66
+msgid "This product is set to \"Don't sync to Etsy\"."
+msgstr ""
+
+#: includes/class-product-sync.php:69
+msgid "Grouped and external/affiliate products can't be listed on Etsy."
+msgstr ""
+
+#: includes/class-product-sync.php:72
+msgid "Digital download products aren't supported yet."
+msgstr ""
+
+#: includes/class-product-sync.php:75
+msgid "No Etsy category: set a default category in Settings → Listing defaults (or map this product's category)."
+msgstr ""
+
+#: includes/class-product-sync.php:78
+msgid "No Etsy shipping profile: choose a default in Settings → Shipping & processing."
+msgstr ""
+
+#: includes/class-product-sync.php:81
+msgid "No Etsy processing profile: choose a default in Settings → Shipping & processing."
+msgstr ""
+
+#: includes/class-product-sync.php:115
+msgid "Created Etsy listing."
+msgstr ""
+
+#: includes/class-product-sync.php:115
+msgid "Updated Etsy listing."
+msgstr ""
+
+#: includes/class-product-sync.php:146
+msgid "Out of stock, so it was not listed on Etsy. It will be listed once it has stock and is synced again."
+msgstr ""
+
+#: includes/class-product-sync.php:151
+msgid "Etsy did not return a listing id."
+msgstr ""
+
+#: includes/class-product-sync.php:165
+msgid "The linked Etsy listing no longer exists — creating a new one."
+msgstr ""
+
+#: includes/class-product-sync.php:201
+msgid "Listing was created as a draft but Etsy would not publish it yet: "
+msgstr ""
+
+#: includes/class-product-sync.php:204
+msgid "Listing left as a draft because the product has no images (Etsy needs at least one to publish)."
+msgstr ""
+
+#: includes/class-product-sync.php:341
+#, php-format
+msgid "Image #%1$d could not be uploaded: %2$s"
+msgstr ""
+
+#: includes/class-product-sync.php:356
+msgid "Could not remove an old Etsy image: "
+msgstr ""
+
+#: includes/class-product-sync.php:364
+#, php-format
+msgid "%d image(s) could not be sent to Etsy."
+msgstr ""
+
+#: includes/class-product-sync.php:414
+msgid "Variation images could not be set: "
+msgstr ""
+
+#: includes/class-product-sync.php:429
+#, php-format
+msgid "Etsy listing set to %s."
+msgstr ""
+
+#: includes/class-rest.php:128
+msgid "Please paste your Etsy keystring."
+msgstr ""
+
+#: includes/class-rest.php:135
+msgid "Please paste your Etsy shared secret."
+msgstr ""
+
+#: includes/class-rest.php:149
+msgid "Saved, but Etsy did not accept these keys: "
+msgstr ""
+
+#: includes/class-rest.php:149
+msgid " Double-check the keystring and shared secret. If your app still says \"Pending Personal Approval\" on Etsy, that is normal: your keys are saved, so just come back and click Connect once Etsy approves it."
+msgstr ""
+
+#: includes/class-rest.php:167
+msgid "Disconnected from Etsy."
+msgstr ""
+
+#: includes/class-rest.php:180
+#: includes/class-rest.php:368
+#: includes/class-rest.php:481
+msgid "Connect your Etsy shop first."
+msgstr ""
+
+#: includes/class-rest.php:275
+#: includes/class-rest.php:277
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-rest.php:275
+#: includes/class-rest.php:277
+msgid "In stock"
+msgstr ""
+
+#: includes/class-rest.php:389
+#, php-format
+msgid "Queued %d product(s) to sync to Etsy."
+msgstr ""
+
+#: includes/class-rest.php:411
+msgid "Etsy listing deleted."
+msgstr ""
+
+#: includes/class-rest.php:414
+msgid "Unlinked from Etsy."
+msgstr ""
+
+#: includes/class-rest.php:422
+msgid "Paste an Etsy listing link or listing number."
+msgstr ""
+
+#: includes/class-rest.php:427
+msgid "That listing belongs to a different Etsy shop."
+msgstr ""
+
+#: includes/class-rest.php:431
+msgid "Linked manually to an existing Etsy listing."
+msgstr ""
+
+#: includes/class-scheduler.php:153
+msgid "Background job failed: "
+msgstr ""
+
+#: includes/class-scheduler.php:178
+msgid "Stock update to Etsy failed: "
+msgstr ""
+
+#: includes/class-scheduler.php:186
+#, php-format
+msgid "Checked Etsy orders: %1$d new sale(s), %2$d stock adjustment(s)."
+msgstr ""
+
+#: includes/class-scheduler.php:189
+msgid "Checking Etsy orders failed: "
+msgstr ""
+
+#: includes/class-scheduler.php:203
+#, php-format
+msgid "Queued stock updates for %d linked product(s)."
+msgstr ""
+
+#: includes/class-stock-sync.php:185
+#, php-format
+msgid "%d Etsy variation(s) could not be matched to WooCommerce variations, so their stock was left alone. Matching uses SKUs first, then option names."
+msgstr ""
+
+#: includes/class-stock-sync.php:201
+#, php-format
+msgid "Stock sent to Etsy (%d available)."
+msgstr ""
+
+#: includes/class-stock-sync.php:225
+msgid "Out of stock — Etsy listing deactivated. It will be reactivated automatically when stock returns."
+msgstr ""
+
+#: includes/class-stock-sync.php:230
+msgid "Back in stock — Etsy listing reactivated."
+msgstr ""
+
+#: includes/class-stock-sync.php:233
+msgid "Could not change the Etsy listing state: "
+msgstr ""
+
+#: includes/class-stock-sync.php:356
+#, php-format
+msgid "Etsy order %1$s: could not tell which variation was sold (%2$s), so stock was not changed."
+msgstr ""
+
+#: includes/class-stock-sync.php:365
+#, php-format
+msgid "Etsy order %1$s: sold %2$d × \"%3$s\" (stock isn't tracked in WooCommerce, nothing to deduct)."
+msgstr ""
+
+#: includes/class-stock-sync.php:371
+#, php-format
+msgid "Etsy order %1$s: sold %2$d × \"%3$s\" — WooCommerce stock is now %4$s."
+msgstr ""
+
+#: woo-etsy-sync.php:72
+msgid "<strong>Marketplace Sync</strong> needs WooCommerce to be installed and active."
+msgstr ""
+
+#: assets/admin.js:100
+msgid "just now"
+msgstr ""
+
+#: assets/admin.js:101
+msgid " min ago"
+msgstr ""
+
+#: assets/admin.js:104
+msgid " days ago"
+msgstr ""
+
+#: assets/admin.js:120
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: assets/admin.js:141
+#: assets/admin.js:147
+#: assets/admin.js:949
+#: assets/admin.js:984
+#: assets/ebay.js:298
+#: assets/ebay.js:321
+#: assets/feeds.js:100
+msgid "Close"
+msgstr ""
+
+#: assets/admin.js:169
+#: assets/admin.js:685
+#: assets/admin.js:967
+#: assets/ebay.js:307
+msgid "Cancel"
+msgstr ""
+
+#: assets/admin.js:183
+msgid "<span class=\"wes-spinner\"></span> "
+msgstr ""
+
+#: assets/admin.js:183
+#: assets/product.js:15
+msgid "Working…"
+msgstr ""
+
+#: assets/admin.js:265
+msgid "Type to search Etsy categories (e.g. \"earrings\", \"candles\")…"
+msgstr ""
+
+#: assets/admin.js:271
+msgid "Choose an Etsy category…"
+msgstr ""
+
+#: assets/admin.js:314
+msgid "No categories match. Try a simpler word."
+msgstr ""
+
+#: assets/admin.js:420
+msgid "Connection settings"
+msgstr ""
+
+#: assets/admin.js:420
+#: assets/admin.js:1344
+#: assets/admin.js:1354
+msgid "Etsy shop"
+msgstr ""
+
+#: assets/admin.js:421
+msgid "Not connected"
+msgstr ""
+
+#: assets/admin.js:423
+#: assets/admin.js:727
+msgid "Dashboard"
+msgstr ""
+
+#: assets/admin.js:424
+#: assets/admin.js:828
+#: assets/ebay.js:562
+msgid "Products"
+msgstr ""
+
+#: assets/admin.js:424
+msgid " with errors"
+msgstr ""
+
+#: assets/admin.js:425
+#: assets/admin.js:748
+#: assets/admin.js:1023
+#: assets/ebay.js:562
+msgid "Link existing listings"
+msgstr ""
+
+#: assets/admin.js:426
+#: assets/admin.js:1375
+#: assets/ebay.js:562
+msgid "Settings"
+msgstr ""
+
+#: assets/admin.js:427
+#: assets/ebay.js:562
+#: assets/feeds.js:239
+msgid "Activity"
+msgstr ""
+
+#: assets/admin.js:438
+msgid " for WooCommerce"
+msgstr ""
+
+#: assets/admin.js:441
+msgid " Syncing "
+msgstr ""
+
+#: assets/admin.js:446
+#: assets/feeds.js:227
+msgid "All platforms"
+msgstr ""
+
+#: assets/admin.js:500
+msgid "Welcome"
+msgstr ""
+
+#: assets/admin.js:500
+msgid "Etsy app"
+msgstr ""
+
+#: assets/admin.js:500
+msgid "Connect shop"
+msgstr ""
+
+#: assets/admin.js:500
+msgid "Defaults"
+msgstr ""
+
+#: assets/admin.js:500
+msgid "Done"
+msgstr ""
+
+#: assets/admin.js:508
+msgid "← Back"
+msgstr ""
+
+#: assets/admin.js:522
+msgid "Skip setup for now"
+msgstr ""
+
+#: assets/admin.js:529
+#: assets/ebay.js:201
+msgid "Woo"
+msgstr ""
+
+#: assets/admin.js:530
+msgid "Let’s connect your Etsy shop"
+msgstr ""
+
+#: assets/admin.js:531
+msgid "This takes about 5 minutes. Your store talks to Etsy directly with your own free Etsy developer key — no middle-man servers that can disappear on you."
+msgstr ""
+
+#: assets/admin.js:534
+msgid "List products"
+msgstr ""
+
+#: assets/admin.js:534
+msgid "Titles, descriptions, prices, photos, tags and variations."
+msgstr ""
+
+#: assets/admin.js:535
+msgid "Two-way stock"
+msgstr ""
+
+#: assets/admin.js:535
+msgid "A sale on either side updates stock on the other."
+msgstr ""
+
+#: assets/admin.js:536
+msgid "Link what you have"
+msgstr ""
+
+#: assets/admin.js:536
+msgid "Match listings already on Etsy to products by SKU."
+msgstr ""
+
+#: assets/admin.js:539
+msgid "Get started"
+msgstr ""
+
+#: assets/admin.js:545
+#: assets/admin.js:1357
+#: assets/ebay.js:184
+msgid "•••••••• (saved — leave blank to keep)"
+msgstr ""
+
+#: assets/admin.js:545
+#: assets/admin.js:1357
+msgid "Paste your shared secret"
+msgstr ""
+
+#: assets/admin.js:549
+msgid "Checking with Etsy…"
+msgstr ""
+
+#: assets/admin.js:552
+msgid "Etsy accepted your keys"
+msgstr ""
+
+#: assets/admin.js:554
+#: assets/ebay.js:192
+msgid "That didn’t work"
+msgstr ""
+
+#: assets/admin.js:555
+#: assets/admin.js:1361
+#: assets/ebay.js:193
+msgid "Save & test keys"
+msgstr ""
+
+#: assets/admin.js:558
+msgid "Create your free Etsy app"
+msgstr ""
+
+#: assets/admin.js:559
+msgid "Etsy needs every store to use its own “app” key. You only do this once."
+msgstr ""
+
+#: assets/admin.js:560
+#: assets/ebay.js:205
+#: assets/feeds.js:121
+#: assets/feeds.js:169
+msgid "Your site isn’t using HTTPS"
+msgstr ""
+
+#: assets/admin.js:560
+msgid "Etsy only allows secure (https://) callback addresses. Switch your site to HTTPS first (most hosts offer a free SSL certificate), then come back."
+msgstr ""
+
+#: assets/admin.js:562
+msgid "Open Etsy’s app page"
+msgstr ""
+
+#: assets/admin.js:562
+msgid "Sign in with the account that owns your shop."
+msgstr ""
+
+#: assets/admin.js:563
+msgid "Create an app on Etsy"
+msgstr ""
+
+#: assets/admin.js:564
+msgid "Fill in the form"
+msgstr ""
+
+#: assets/admin.js:564
+msgid "Name: anything (e.g. “"
+msgstr ""
+
+#: assets/admin.js:564
+msgid "My Shop"
+msgstr ""
+
+#: assets/admin.js:564
+msgid " Sync”). Describe it as syncing your own WooCommerce store. Choose <em>“Seller tools”</em> / that it’s for your own shop."
+msgstr ""
+
+#: assets/admin.js:565
+msgid "Add this callback URL"
+msgstr ""
+
+#: assets/admin.js:565
+msgid "After creating the app, open it and add this exact address under “Callback URLs”:"
+msgstr ""
+
+#: assets/admin.js:567
+msgid "Copy your keys here"
+msgstr ""
+
+#: assets/admin.js:567
+msgid "Etsy shows a “Keystring” and a “Shared secret” for your app."
+msgstr ""
+
+#: assets/admin.js:569
+#: assets/admin.js:1363
+msgid "Keystring"
+msgstr ""
+
+#: assets/admin.js:569
+#: assets/admin.js:1363
+msgid "Shared secret"
+msgstr ""
+
+#: assets/admin.js:578
+#: assets/admin.js:1336
+msgid "Etsy connection failed"
+msgstr ""
+
+#: assets/admin.js:580
+#: assets/admin.js:1343
+#: assets/admin.js:1353
+msgid "Opening Etsy…"
+msgstr ""
+
+#: assets/admin.js:581
+msgid "Couldn’t start the connection"
+msgstr ""
+
+#: assets/admin.js:582
+#: assets/admin.js:1353
+msgid "Connect my Etsy shop"
+msgstr ""
+
+#: assets/admin.js:586
+msgid "Give your store permission"
+msgstr ""
+
+#: assets/admin.js:587
+msgid "You’ll be sent to Etsy to approve access, then brought straight back here."
+msgstr ""
+
+#: assets/admin.js:590
+msgid "If Etsy says the app isn’t approved yet, wait a little — new apps can take a short while to activate."
+msgstr ""
+
+#: assets/admin.js:600
+msgid "Connected to "
+msgstr ""
+
+#: assets/admin.js:600
+msgid "your shop"
+msgstr ""
+
+#: assets/admin.js:601
+msgid "Pick a few defaults Etsy needs for every listing. You can fine-tune everything later in Settings."
+msgstr ""
+
+#: assets/admin.js:607
+#: assets/admin.js:625
+#: assets/admin.js:1212
+#: assets/admin.js:1219
+#: assets/ebay.js:477
+#: assets/ebay.js:478
+#: assets/ebay.js:479
+msgid "Choose…"
+msgstr ""
+
+#: assets/admin.js:608
+#: assets/admin.js:1218
+msgid "Processing time"
+msgstr ""
+
+#: assets/admin.js:610
+#: assets/admin.js:1220
+msgid "+ New"
+msgstr ""
+
+#: assets/admin.js:610
+msgid "How long you take to dispatch (Etsy calls these “processing profiles”)."
+msgstr ""
+
+#: assets/admin.js:615
+msgid "Please choose a category, shipping profile and processing time"
+msgstr ""
+
+#: assets/admin.js:617
+#: assets/admin.js:1136
+#: assets/ebay.js:411
+#: assets/feeds.js:157
+#: assets/feeds.js:190
+msgid "Saving…"
+msgstr ""
+
+#: assets/admin.js:620
+msgid "Save & continue"
+msgstr ""
+
+#: assets/admin.js:622
+msgid "No shipping profiles found on Etsy"
+msgstr ""
+
+#: assets/admin.js:622
+msgid "Create one in <a href=\"https://www.etsy.com/your/shops/me/tools/shipping-profiles\" target=\"_blank\" rel=\"noopener\">Etsy → Shipping settings</a>, then click refresh."
+msgstr ""
+
+#: assets/admin.js:623
+#: assets/admin.js:721
+msgid "Default Etsy category"
+msgstr ""
+
+#: assets/admin.js:623
+msgid "Used when a product’s category isn’t mapped. You can map WooCommerce categories later."
+msgstr ""
+
+#: assets/admin.js:625
+#: assets/admin.js:1213
+msgid "Refresh from Etsy"
+msgstr ""
+
+#: assets/admin.js:629
+msgid "Who made your products?"
+msgstr ""
+
+#: assets/admin.js:630
+#: assets/admin.js:1169
+msgid "When were they made?"
+msgstr ""
+
+#: assets/admin.js:632
+msgid "New listings should be…"
+msgstr ""
+
+#: assets/admin.js:633
+msgid "Drafts (recommended)"
+msgstr ""
+
+#: assets/admin.js:633
+msgid "Review on Etsy, then publish. No listing fees until you publish."
+msgstr ""
+
+#: assets/admin.js:634
+msgid "Published straight away"
+msgstr ""
+
+#: assets/admin.js:634
+msgid "Goes live immediately. Etsy charges its normal listing fee."
+msgstr ""
+
+#: assets/admin.js:639
+msgid "Couldn’t load your shop details"
+msgstr ""
+
+#: assets/admin.js:646
+msgid "You’re all set!"
+msgstr ""
+
+#: assets/admin.js:647
+msgid "What would you like to do first?"
+msgstr ""
+
+#: assets/admin.js:650
+msgid "Link my existing Etsy listings"
+msgstr ""
+
+#: assets/admin.js:650
+msgid "Already selling on Etsy? Match listings to products by SKU so stock stays in sync."
+msgstr ""
+
+#: assets/admin.js:651
+msgid "Put products on Etsy"
+msgstr ""
+
+#: assets/admin.js:651
+msgid "Choose products and send them to Etsy as new listings."
+msgstr ""
+
+#: assets/admin.js:652
+msgid "Go to the dashboard"
+msgstr ""
+
+#: assets/admin.js:652
+msgid "See everything at a glance."
+msgstr ""
+
+#: assets/admin.js:662
+#: assets/admin.js:663
+msgid "Copied"
+msgstr ""
+
+#: assets/admin.js:665
+msgid "Copy"
+msgstr ""
+
+#: assets/admin.js:676
+msgid "Type"
+msgstr ""
+
+#: assets/admin.js:678
+msgid "From"
+msgstr ""
+
+#: assets/admin.js:679
+msgid "To"
+msgstr ""
+
+#: assets/admin.js:680
+msgid "Unit"
+msgstr ""
+
+#: assets/admin.js:680
+msgid "Business days"
+msgstr ""
+
+#: assets/admin.js:680
+msgid "Weeks"
+msgstr ""
+
+#: assets/admin.js:684
+msgid "New processing profile"
+msgstr ""
+
+#: assets/admin.js:686
+msgid "Create on Etsy"
+msgstr ""
+
+#: assets/admin.js:689
+msgid "Processing profile created"
+msgstr ""
+
+#: assets/admin.js:708
+msgid "Connected to Etsy"
+msgstr ""
+
+#: assets/admin.js:708
+msgid "Your shop <strong>"
+msgstr ""
+
+#: assets/admin.js:710
+msgid "Your Etsy shop isn’t connected"
+msgstr ""
+
+#: assets/admin.js:710
+msgid "Nothing will sync until you connect."
+msgstr ""
+
+#: assets/admin.js:710
+msgid "Connect now"
+msgstr ""
+
+#: assets/admin.js:712
+msgid "Etsy needs you to reconnect"
+msgstr ""
+
+#: assets/admin.js:712
+msgid "Your saved Etsy login stopped working (Etsy logins last 90 days without use, or access was revoked)."
+msgstr ""
+
+#: assets/admin.js:712
+#: assets/admin.js:1343
+#: assets/ebay.js:111
+#: assets/ebay.js:424
+msgid "Reconnect"
+msgstr ""
+
+#: assets/admin.js:716
+msgid "Coming from Platy Syncer?"
+msgstr ""
+
+#: assets/admin.js:716
+msgid "We found "
+msgstr ""
+
+#: assets/admin.js:716
+msgid " linked products from the old plugin. You can import them in one click."
+msgstr ""
+
+#: assets/admin.js:716
+#: assets/ebay.js:129
+msgid "Review & import"
+msgstr ""
+
+#: assets/admin.js:720
+msgid "Etsy shop connected"
+msgstr ""
+
+#: assets/admin.js:720
+msgid "Connect under Settings → Connection"
+msgstr ""
+
+#: assets/admin.js:721
+#: assets/admin.js:722
+msgid "Required to create listings"
+msgstr ""
+
+#: assets/admin.js:722
+msgid "Shipping & processing defaults"
+msgstr ""
+
+#: assets/admin.js:723
+msgid "Currencies match"
+msgstr ""
+
+#: assets/admin.js:723
+msgid "Etsy uses "
+msgstr ""
+
+#: assets/admin.js:723
+msgid " but your store uses "
+msgstr ""
+
+#: assets/admin.js:723
+msgid "Prices are sent as-is"
+msgstr ""
+
+#: assets/admin.js:727
+#: assets/ebay.js:133
+msgid "Everything between your store and <strong>"
+msgstr ""
+
+#: assets/admin.js:727
+msgid "Connect Etsy to get started."
+msgstr ""
+
+#: assets/admin.js:731
+#: assets/ebay.js:136
+msgid "% of published products"
+msgstr ""
+
+#: assets/admin.js:732
+#: assets/ebay.js:137
+msgid "Need attention"
+msgstr ""
+
+#: assets/admin.js:732
+#: assets/ebay.js:137
+msgid "View errors →"
+msgstr ""
+
+#: assets/admin.js:732
+#: assets/ebay.js:137
+msgid "No sync errors"
+msgstr ""
+
+#: assets/admin.js:733
+#: assets/ebay.js:138
+msgid "Last 24 hours"
+msgstr ""
+
+#: assets/admin.js:733
+msgid "successful syncs & stock updates"
+msgstr ""
+
+#: assets/admin.js:734
+msgid "Etsy orders checked"
+msgstr ""
+
+#: assets/admin.js:734
+msgid "Etsy → Woo stock is off"
+msgstr ""
+
+#: assets/admin.js:739
+msgid "Recent activity"
+msgstr ""
+
+#: assets/admin.js:739
+#: assets/ebay.js:142
+msgid "View all"
+msgstr ""
+
+#: assets/admin.js:745
+#: assets/ebay.js:144
+msgid "Quick actions"
+msgstr ""
+
+#: assets/admin.js:747
+msgid "Sync products to Etsy"
+msgstr ""
+
+#: assets/admin.js:747
+msgid "Choose which products to list or update."
+msgstr ""
+
+#: assets/admin.js:748
+msgid "Match Etsy listings to products by SKU."
+msgstr ""
+
+#: assets/admin.js:749
+msgid "Send all stock to Etsy"
+msgstr ""
+
+#: assets/admin.js:749
+#: assets/ebay.js:147
+msgid "Push WooCommerce stock to every linked listing."
+msgstr ""
+
+#: assets/admin.js:749
+msgid "Queued stock updates for "
+msgstr ""
+
+#: assets/admin.js:750
+msgid "Check Etsy orders now"
+msgstr ""
+
+#: assets/admin.js:750
+msgid "Deduct new Etsy sales from WooCommerce stock."
+msgstr ""
+
+#: assets/admin.js:750
+#: assets/ebay.js:148
+msgid " stock adjustment(s) from "
+msgstr ""
+
+#: assets/admin.js:750
+msgid " new sale(s)"
+msgstr ""
+
+#: assets/admin.js:750
+msgid "No new Etsy sales"
+msgstr ""
+
+#: assets/admin.js:754
+#: assets/ebay.js:150
+msgid "Health check"
+msgstr ""
+
+#: assets/admin.js:758
+#: assets/ebay.js:151
+#: assets/feeds.js:93
+msgid "Fix"
+msgstr ""
+
+#: assets/admin.js:763
+msgid "Marketplace Sync v"
+msgstr ""
+
+#: assets/admin.js:769
+#: assets/ebay.js:157
+msgid "Nothing yet"
+msgstr ""
+
+#: assets/admin.js:769
+msgid "Activity will show up here as things sync."
+msgstr ""
+
+#: assets/admin.js:770
+msgid "Could not load activity."
+msgstr ""
+
+#: assets/admin.js:800
+msgid "Etsy listing"
+msgstr ""
+
+#: assets/admin.js:811
+#: assets/ebay.js:45
+msgid " stock update"
+msgstr ""
+
+#: assets/admin.js:812
+msgid "Syncing with Etsy…"
+msgstr ""
+
+#: assets/admin.js:812
+msgid " remaining. You can leave this page — it carries on in the background."
+msgstr ""
+
+#: assets/admin.js:828
+msgid "Send products to Etsy, update them, or check what went wrong."
+msgstr ""
+
+#: assets/admin.js:829
+msgid "Open WooCommerce products"
+msgstr ""
+
+#: assets/admin.js:831
+#: assets/admin.js:1024
+#: assets/admin.js:1155
+msgid "Connect Etsy first"
+msgstr ""
+
+#: assets/admin.js:831
+msgid "You can browse products, but syncing needs a connected shop."
+msgstr ""
+
+#: assets/admin.js:835
+#: assets/ebay.js:235
+msgid "Search name or SKU…"
+msgstr ""
+
+#: assets/admin.js:840
+#: assets/admin.js:1406
+#: assets/ebay.js:254
+msgid "All"
+msgstr ""
+
+#: assets/admin.js:840
+#: assets/admin.js:1406
+#: assets/ebay.js:254
+msgid "Errors"
+msgstr ""
+
+#: assets/admin.js:855
+#: assets/admin.js:1082
+#: assets/ebay.js:245
+#: assets/ebay.js:384
+msgid "Queuing…"
+msgstr ""
+
+#: assets/admin.js:857
+msgid " queued for Etsy"
+msgstr ""
+
+#: assets/admin.js:869
+msgid "Select all"
+msgstr ""
+
+#: assets/admin.js:870
+#: assets/ebay.js:280
+msgid "Product"
+msgstr ""
+
+#: assets/admin.js:870
+#: assets/admin.js:992
+#: assets/admin.js:1005
+#: assets/ebay.js:280
+#: assets/ebay.js:328
+#: assets/ebay.js:339
+#: assets/feeds.js:105
+msgid "Price"
+msgstr ""
+
+#: assets/admin.js:870
+#: assets/admin.js:1327
+#: assets/ebay.js:280
+msgid "Stock"
+msgstr ""
+
+#: assets/admin.js:870
+#: assets/ebay.js:280
+msgid "Last sync"
+msgstr ""
+
+#: assets/admin.js:876
+#: assets/ebay.js:257
+msgid "Couldn’t load products"
+msgstr ""
+
+#: assets/admin.js:876
+#: assets/ebay.js:257
+msgid "No products here"
+msgstr ""
+
+#: assets/admin.js:876
+msgid "Try a different search."
+msgstr ""
+
+#: assets/admin.js:876
+#: assets/ebay.js:257
+msgid "Nothing matches this filter."
+msgstr ""
+
+#: assets/admin.js:885
+#: assets/ebay.js:266
+msgid "No SKU"
+msgstr ""
+
+#: assets/admin.js:897
+#: assets/ebay.js:282
+msgid "← Prev"
+msgstr ""
+
+#: assets/admin.js:898
+#: assets/ebay.js:282
+msgid "Page "
+msgstr ""
+
+#: assets/admin.js:899
+#: assets/ebay.js:283
+msgid "Next →"
+msgstr ""
+
+#: assets/admin.js:902
+#: assets/admin.js:904
+#: assets/ebay.js:273
+#: assets/ebay.js:275
+msgid "Sync "
+msgstr ""
+
+#: assets/admin.js:904
+msgid " products?"
+msgstr ""
+
+#: assets/admin.js:904
+msgid "This will create or update Etsy listings for every published product in this view"
+msgstr ""
+
+#: assets/admin.js:904
+msgid " matching “"
+msgstr ""
+
+#: assets/admin.js:904
+#: assets/ebay.js:275
+msgid "Sync them"
+msgstr ""
+
+#: assets/admin.js:905
+msgid "Sync all "
+msgstr ""
+
+#: assets/admin.js:918
+msgid "Update the Etsy listing now"
+msgstr ""
+
+#: assets/admin.js:918
+msgid "Create an Etsy listing now"
+msgstr ""
+
+#: assets/admin.js:919
+#: assets/ebay.js:260
+msgid "Updating…"
+msgstr ""
+
+#: assets/admin.js:919
+#: assets/ebay.js:260
+msgid "Listing…"
+msgstr ""
+
+#: assets/admin.js:921
+#: assets/product.js:29
+msgid "Listed on Etsy"
+msgstr ""
+
+#: assets/admin.js:921
+#: assets/product.js:29
+msgid "Updated on Etsy"
+msgstr ""
+
+#: assets/admin.js:924
+#: assets/ebay.js:262
+msgid "Update"
+msgstr ""
+
+#: assets/admin.js:924
+msgid "List on Etsy"
+msgstr ""
+
+#: assets/admin.js:925
+#: assets/ebay.js:270
+msgid "More"
+msgstr ""
+
+#: assets/admin.js:937
+msgid "Preview what will be sent"
+msgstr ""
+
+#: assets/admin.js:937
+msgid "See the title, price, tags and variations Etsy will get."
+msgstr ""
+
+#: assets/admin.js:938
+msgid "View the listing on etsy.com."
+msgstr ""
+
+#: assets/admin.js:939
+msgid "Publish on Etsy"
+msgstr ""
+
+#: assets/admin.js:939
+msgid "Make the listing live (Etsy may charge a listing fee)."
+msgstr ""
+
+#: assets/admin.js:940
+msgid "Deactivate on Etsy"
+msgstr ""
+
+#: assets/admin.js:940
+msgid "Hide the listing on Etsy without deleting it."
+msgstr ""
+
+#: assets/admin.js:941
+msgid "Link to an existing Etsy listing"
+msgstr ""
+
+#: assets/admin.js:941
+msgid "Already on Etsy? Paste its link."
+msgstr ""
+
+#: assets/admin.js:942
+msgid "Stop syncing this product. The Etsy listing is kept."
+msgstr ""
+
+#: assets/admin.js:943
+msgid "Delete the Etsy listing"
+msgstr ""
+
+#: assets/admin.js:943
+msgid "Permanently delete the listing on Etsy and unlink."
+msgstr ""
+
+#: assets/admin.js:944
+msgid "Never sync this product"
+msgstr ""
+
+#: assets/admin.js:944
+msgid "Include this product again."
+msgstr ""
+
+#: assets/admin.js:944
+#: assets/ebay.js:295
+msgid "Skip it in bulk syncs and stock updates."
+msgstr ""
+
+#: assets/admin.js:947
+msgid "Edit product & Etsy overrides"
+msgstr ""
+
+#: assets/admin.js:947
+msgid "Open the WooCommerce editor (see the “Etsy” tab)."
+msgstr ""
+
+#: assets/admin.js:953
+msgid "Published on Etsy"
+msgstr ""
+
+#: assets/admin.js:953
+msgid "Deactivated on Etsy"
+msgstr ""
+
+#: assets/admin.js:957
+msgid "Delete this Etsy listing?"
+msgstr ""
+
+#: assets/admin.js:957
+msgid "Unlink from Etsy?"
+msgstr ""
+
+#: assets/admin.js:957
+msgid "The listing will be permanently deleted from Etsy. This can’t be undone."
+msgstr ""
+
+#: assets/admin.js:957
+msgid "The product stops syncing. The Etsy listing stays as it is."
+msgstr ""
+
+#: assets/admin.js:957
+msgid "Delete listing"
+msgstr ""
+
+#: assets/admin.js:959
+msgid "Listing deleted"
+msgstr ""
+
+#: assets/admin.js:959
+#: assets/ebay.js:302
+msgid "Unlinked"
+msgstr ""
+
+#: assets/admin.js:966
+msgid "Link to an Etsy listing"
+msgstr ""
+
+#: assets/admin.js:966
+msgid "Etsy listing link or number"
+msgstr ""
+
+#: assets/admin.js:966
+msgid "Stock will then sync between this product and that listing."
+msgstr ""
+
+#: assets/admin.js:984
+msgid "Preview for Etsy"
+msgstr ""
+
+#: assets/admin.js:991
+#: assets/admin.js:1324
+#: assets/ebay.js:326
+#: assets/ebay.js:533
+#: assets/feeds.js:105
+msgid "Title"
+msgstr ""
+
+#: assets/admin.js:992
+msgid " (lowest)"
+msgstr ""
+
+#: assets/admin.js:993
+#: assets/ebay.js:329
+msgid "Quantity"
+msgstr ""
+
+#: assets/admin.js:994
+msgid "Tags"
+msgstr ""
+
+#: assets/admin.js:996
+#: assets/admin.js:1325
+#: assets/ebay.js:330
+#: assets/ebay.js:533
+msgid "Photos"
+msgstr ""
+
+#: assets/admin.js:997
+msgid "Category id"
+msgstr ""
+
+#: assets/admin.js:998
+msgid "Who / when"
+msgstr ""
+
+#: assets/admin.js:999
+#: assets/admin.js:1245
+#: assets/admin.js:1324
+#: assets/ebay.js:332
+#: assets/ebay.js:447
+#: assets/ebay.js:533
+#: assets/feeds.js:213
+msgid "Description"
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "This product can’t sync yet"
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "Ready to sync"
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "This will update listing "
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "This will create a new "
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "live listing"
+msgstr ""
+
+#: assets/admin.js:1001
+msgid "draft listing"
+msgstr ""
+
+#: assets/admin.js:1005
+#: assets/admin.js:1061
+#: assets/ebay.js:339
+msgid "Options"
+msgstr ""
+
+#: assets/admin.js:1005
+#: assets/ebay.js:339
+msgid "Qty"
+msgstr ""
+
+#: assets/admin.js:1012
+#: assets/feeds.js:114
+msgid "Preview failed"
+msgstr ""
+
+#: assets/admin.js:1023
+msgid "Already have listings on Etsy? Match them to your WooCommerce products so stock stays in sync. <strong>Nothing on Etsy is changed</strong> by this step."
+msgstr ""
+
+#: assets/admin.js:1032
+#: assets/ebay.js:358
+msgid "Importing…"
+msgstr ""
+
+#: assets/admin.js:1035
+#: assets/ebay.js:359
+msgid "Imported "
+msgstr ""
+
+#: assets/admin.js:1035
+msgid " product links and "
+msgstr ""
+
+#: assets/admin.js:1038
+msgid "Import from Platy Syncer"
+msgstr ""
+
+#: assets/admin.js:1039
+msgid "We found your old Platy Syncer data"
+msgstr ""
+
+#: assets/admin.js:1039
+msgid "It has <strong>"
+msgstr ""
+
+#: assets/admin.js:1039
+msgid " linked to Etsy listings and <strong>"
+msgstr ""
+
+#: assets/admin.js:1046
+#: assets/ebay.js:364
+msgid "Starting…"
+msgstr ""
+
+#: assets/admin.js:1048
+#: assets/ebay.js:366
+msgid "Scan again"
+msgstr ""
+
+#: assets/admin.js:1048
+#: assets/ebay.js:366
+msgid "Find matches"
+msgstr ""
+
+#: assets/admin.js:1054
+msgid "How matching works"
+msgstr ""
+
+#: assets/admin.js:1056
+msgid "SKU match (best)"
+msgstr ""
+
+#: assets/admin.js:1056
+msgid "An Etsy listing’s SKUs are looked up in WooCommerce — including variation SKUs."
+msgstr ""
+
+#: assets/admin.js:1057
+msgid "Exact title match (optional)"
+msgstr ""
+
+#: assets/admin.js:1057
+msgid "For listings with no SKU, an identical product name is used."
+msgstr ""
+
+#: assets/admin.js:1073
+msgid "Scanning your Etsy listings…"
+msgstr ""
+
+#: assets/admin.js:1074
+#: assets/ebay.js:376
+msgid "Scan stopped"
+msgstr ""
+
+#: assets/admin.js:1076
+#: assets/ebay.js:377
+msgid "Listings checked"
+msgstr ""
+
+#: assets/admin.js:1077
+#: assets/ebay.js:377
+msgid "Newly linked"
+msgstr ""
+
+#: assets/admin.js:1077
+msgid "stock will sync for these"
+msgstr ""
+
+#: assets/admin.js:1078
+#: assets/ebay.js:377
+msgid "Already linked"
+msgstr ""
+
+#: assets/admin.js:1079
+#: assets/ebay.js:377
+msgid "No match"
+msgstr ""
+
+#: assets/admin.js:1079
+msgid "see list below"
+msgstr ""
+
+#: assets/admin.js:1081
+msgid "Next step: line up the stock"
+msgstr ""
+
+#: assets/admin.js:1081
+msgid "Your newly linked listings still show Etsy’s own quantities. Send WooCommerce stock to them now so both sides agree."
+msgstr ""
+
+#: assets/admin.js:1082
+#: assets/ebay.js:147
+#: assets/ebay.js:384
+msgid "Queued stock for "
+msgstr ""
+
+#: assets/admin.js:1082
+msgid "Send WooCommerce stock to Etsy"
+msgstr ""
+
+#: assets/admin.js:1083
+msgid "Product #"
+msgstr ""
+
+#: assets/admin.js:1083
+msgid "Etsy: "
+msgstr ""
+
+#: assets/admin.js:1084
+#: assets/ebay.js:379
+msgid "Not matched"
+msgstr ""
+
+#: assets/admin.js:1084
+#: assets/ebay.js:379
+msgid "no SKU"
+msgstr ""
+
+#: assets/admin.js:1084
+msgid "Tip: give the WooCommerce product the same SKU as on Etsy, or link it by hand from the product’s “Etsy” tab."
+msgstr ""
+
+#: assets/admin.js:1085
+#: assets/ebay.js:380
+msgid "Conflicts"
+msgstr ""
+
+#: assets/admin.js:1114
+#: assets/ebay.js:401
+msgid "Listing defaults"
+msgstr ""
+
+#: assets/admin.js:1115
+#: assets/ebay.js:401
+msgid "Category mapping"
+msgstr ""
+
+#: assets/admin.js:1116
+msgid "Shipping & processing"
+msgstr ""
+
+#: assets/admin.js:1117
+msgid "Titles, tags & photos"
+msgstr ""
+
+#: assets/admin.js:1118
+#: assets/ebay.js:401
+msgid "Pricing"
+msgstr ""
+
+#: assets/admin.js:1119
+#: assets/ebay.js:401
+msgid "Stock sync"
+msgstr ""
+
+#: assets/admin.js:1120
+#: assets/ebay.js:401
+msgid "Automatic updates"
+msgstr ""
+
+#: assets/admin.js:1121
+#: assets/ebay.js:401
+msgid "Connection"
+msgstr ""
+
+#: assets/admin.js:1126
+msgid "You have unsaved changes"
+msgstr ""
+
+#: assets/admin.js:1127
+#: assets/ebay.js:406
+msgid "Discard"
+msgstr ""
+
+#: assets/admin.js:1128
+#: assets/ebay.js:407
+msgid "Save changes"
+msgstr ""
+
+#: assets/admin.js:1138
+msgid "Settings saved"
+msgstr ""
+
+#: assets/admin.js:1155
+msgid "These options come from your Etsy shop."
+msgstr ""
+
+#: assets/admin.js:1155
+#: assets/ebay.js:417
+msgid "Go to Connection"
+msgstr ""
+
+#: assets/admin.js:1157
+msgid "Couldn’t load from Etsy"
+msgstr ""
+
+#: assets/admin.js:1164
+#: assets/ebay.js:442
+#: assets/feeds.js:217
+msgid "Default category"
+msgstr ""
+
+#: assets/admin.js:1164
+msgid "Etsy needs a category for every listing. This one is used unless a product or its WooCommerce category says otherwise."
+msgstr ""
+
+#: assets/admin.js:1166
+msgid "About your items"
+msgstr ""
+
+#: assets/admin.js:1168
+msgid "Who made them?"
+msgstr ""
+
+#: assets/admin.js:1173
+msgid "New listings"
+msgstr ""
+
+#: assets/admin.js:1173
+msgid "What happens when a product is sent to Etsy for the first time."
+msgstr ""
+
+#: assets/admin.js:1175
+msgid "Create as drafts (recommended)"
+msgstr ""
+
+#: assets/admin.js:1175
+msgid "Check them on Etsy, then publish. No fee until published."
+msgstr ""
+
+#: assets/admin.js:1176
+msgid "Publish immediately"
+msgstr ""
+
+#: assets/admin.js:1176
+msgid "Goes live straight away (Etsy charges its normal listing fee)."
+msgstr ""
+
+#: assets/admin.js:1194
+msgid "No WooCommerce categories yet"
+msgstr ""
+
+#: assets/admin.js:1200
+#: assets/ebay.js:465
+msgid "Same as parent / default"
+msgstr ""
+
+#: assets/admin.js:1200
+#: assets/ebay.js:465
+msgid "Use default category"
+msgstr ""
+
+#: assets/admin.js:1201
+msgid "No shop section"
+msgstr ""
+
+#: assets/admin.js:1205
+msgid "Couldn’t load categories"
+msgstr ""
+
+#: assets/admin.js:1206
+msgid "WooCommerce category → Etsy category"
+msgstr ""
+
+#: assets/admin.js:1206
+msgid "Products use the most specific mapped category. Sub-categories inherit from their parent. Optionally put them in an Etsy shop section too."
+msgstr ""
+
+#: assets/admin.js:1210
+msgid "Shipping"
+msgstr ""
+
+#: assets/admin.js:1210
+msgid "Etsy shipping profiles hold your postage prices. Create or edit them on Etsy."
+msgstr ""
+
+#: assets/admin.js:1212
+msgid "Default shipping profile"
+msgstr ""
+
+#: assets/admin.js:1214
+msgid "Don’t see the right one? <a href=\"https://www.etsy.com/your/shops/me/tools/shipping-profiles\" target=\"_blank\" rel=\"noopener\">Manage shipping profiles on Etsy</a>."
+msgstr ""
+
+#: assets/admin.js:1218
+msgid "How long you take before dispatching. Etsy calls these processing profiles."
+msgstr ""
+
+#: assets/admin.js:1220
+msgid "Default processing profile"
+msgstr ""
+
+#: assets/admin.js:1222
+msgid "Returns"
+msgstr ""
+
+#: assets/admin.js:1223
+msgid "Return policy"
+msgstr ""
+
+#: assets/admin.js:1223
+msgid "Etsy shop default"
+msgstr ""
+
+#: assets/admin.js:1223
+msgid "Optional. Leave as default to use your shop’s standard policy."
+msgstr ""
+
+#: assets/admin.js:1230
+msgid "Tip: if you use WooCommerce shipping classes, you can map each one to a different Etsy shipping profile here."
+msgstr ""
+
+#: assets/admin.js:1233
+msgid "By WooCommerce shipping class"
+msgstr ""
+
+#: assets/admin.js:1235
+msgid "Use default profile"
+msgstr ""
+
+#: assets/admin.js:1242
+msgid "Titles"
+msgstr ""
+
+#: assets/admin.js:1243
+#: assets/ebay.js:446
+msgid "Title template"
+msgstr ""
+
+#: assets/admin.js:1243
+msgid "Use <code>{title}</code>, <code>{sku}</code> and <code>{category}</code>. Example: <code>{title} | Handmade</code>. Etsy allows 140 characters."
+msgstr ""
+
+#: assets/admin.js:1246
+msgid "Use this text"
+msgstr ""
+
+#: assets/admin.js:1247
+#: assets/ebay.js:447
+#: assets/feeds.js:213
+msgid "Full description"
+msgstr ""
+
+#: assets/admin.js:1247
+msgid "The main product description."
+msgstr ""
+
+#: assets/admin.js:1248
+#: assets/ebay.js:447
+#: assets/feeds.js:213
+msgid "Short description"
+msgstr ""
+
+#: assets/admin.js:1248
+msgid "The summary shown near the price."
+msgstr ""
+
+#: assets/admin.js:1249
+#: assets/ebay.js:447
+msgid "Both"
+msgstr ""
+
+#: assets/admin.js:1249
+msgid "Short description, then full description."
+msgstr ""
+
+#: assets/admin.js:1251
+#: assets/ebay.js:448
+msgid "Add to the end of every description"
+msgstr ""
+
+#: assets/admin.js:1251
+msgid "e.g. Thanks for shopping with us! Free gift wrapping on request."
+msgstr ""
+
+#: assets/admin.js:1251
+msgid "Formatting is converted to plain text, which is what Etsy shows."
+msgstr ""
+
+#: assets/admin.js:1253
+#: assets/admin.js:1324
+msgid "Tags & materials"
+msgstr ""
+
+#: assets/admin.js:1253
+msgid "Etsy allows 13 tags of up to 20 characters. Extras are dropped automatically."
+msgstr ""
+
+#: assets/admin.js:1258
+msgid "Tags to add to every listing"
+msgstr ""
+
+#: assets/admin.js:1258
+msgid "handmade, gift for her"
+msgstr ""
+
+#: assets/admin.js:1258
+msgid "Comma separated."
+msgstr ""
+
+#: assets/admin.js:1259
+msgid "Default materials"
+msgstr ""
+
+#: assets/admin.js:1259
+msgid "cotton, recycled paper"
+msgstr ""
+
+#: assets/admin.js:1259
+msgid "Comma separated. Products can override this."
+msgstr ""
+
+#: assets/admin.js:1262
+msgid "Photos & details"
+msgstr ""
+
+#: assets/admin.js:1263
+#: assets/ebay.js:449
+msgid "Photos per listing"
+msgstr ""
+
+#: assets/admin.js:1263
+msgid "Main image first, then the gallery."
+msgstr ""
+
+#: assets/admin.js:1277
+msgid "Example: a product priced "
+msgstr ""
+
+#: assets/admin.js:1277
+msgid " in WooCommerce will be "
+msgstr ""
+
+#: assets/admin.js:1277
+msgid " on Etsy."
+msgstr ""
+
+#: assets/admin.js:1282
+msgid "Different currencies"
+msgstr ""
+
+#: assets/admin.js:1282
+msgid "Your Etsy shop uses <strong>"
+msgstr ""
+
+#: assets/admin.js:1283
+msgid "Price on Etsy"
+msgstr ""
+
+#: assets/admin.js:1283
+msgid "Etsy fees are higher than your own shop’s, so many sellers add a little on top."
+msgstr ""
+
+#: assets/admin.js:1287
+#: assets/ebay.js:507
+msgid "Adjust prices"
+msgstr ""
+
+#: assets/admin.js:1287
+#: assets/ebay.js:507
+msgid "Same as WooCommerce"
+msgstr ""
+
+#: assets/admin.js:1287
+#: assets/ebay.js:507
+msgid "Add a percentage"
+msgstr ""
+
+#: assets/admin.js:1287
+#: assets/ebay.js:507
+msgid "Add a fixed amount"
+msgstr ""
+
+#: assets/admin.js:1288
+msgid "Percentage (use minus to lower)"
+msgstr ""
+
+#: assets/admin.js:1288
+msgid "Amount (use minus to lower)"
+msgstr ""
+
+#: assets/admin.js:1290
+#: assets/ebay.js:509
+msgid "Round prices"
+msgstr ""
+
+#: assets/admin.js:1290
+#: assets/ebay.js:509
+msgid "Don’t round"
+msgstr ""
+
+#: assets/admin.js:1290
+msgid "Up to .99 (e.g. 23.40 → 23.99)"
+msgstr ""
+
+#: assets/admin.js:1290
+#: assets/ebay.js:509
+msgid "To whole numbers"
+msgstr ""
+
+#: assets/admin.js:1299
+msgid "WooCommerce → Etsy"
+msgstr ""
+
+#: assets/admin.js:1304
+#: assets/ebay.js:519
+msgid "Quantity for products without stock tracking"
+msgstr ""
+
+#: assets/admin.js:1304
+msgid "Used when “Manage stock” is off but the product is in stock."
+msgstr ""
+
+#: assets/admin.js:1305
+#: assets/ebay.js:519
+msgid "Never show more than"
+msgstr ""
+
+#: assets/admin.js:1305
+msgid "Etsy’s maximum is 999 per option."
+msgstr ""
+
+#: assets/admin.js:1308
+msgid "Etsy → WooCommerce"
+msgstr ""
+
+#: assets/admin.js:1311
+msgid "Check Etsy for new orders every"
+msgstr ""
+
+#: assets/admin.js:1312
+msgid "Last checked "
+msgstr ""
+
+#: assets/admin.js:1320
+#: assets/ebay.js:532
+msgid "When I edit a product"
+msgstr ""
+
+#: assets/admin.js:1323
+#: assets/ebay.js:533
+msgid "What to update on existing listings"
+msgstr ""
+
+#: assets/admin.js:1323
+msgid "Turn things off here if you edit them directly on Etsy and don’t want them overwritten."
+msgstr ""
+
+#: assets/admin.js:1325
+msgid "Replaces Etsy photos with the product’s photos."
+msgstr ""
+
+#: assets/admin.js:1326
+msgid "Prices, variations & SKUs"
+msgstr ""
+
+#: assets/admin.js:1326
+#: assets/ebay.js:533
+msgid "Also sends stock."
+msgstr ""
+
+#: assets/admin.js:1327
+msgid "Quantities only, keeping Etsy’s prices (used when prices are off)."
+msgstr ""
+
+#: assets/admin.js:1329
+#: assets/ebay.js:534
+msgid "When a product is deleted"
+msgstr ""
+
+#: assets/admin.js:1330
+msgid "Deactivate the Etsy listing"
+msgstr ""
+
+#: assets/admin.js:1330
+msgid "Leave the Etsy listing alone"
+msgstr ""
+
+#: assets/admin.js:1339
+msgid "Disconnect Etsy?"
+msgstr ""
+
+#: assets/admin.js:1339
+msgid "Syncing stops until you connect again. Links between products and listings are kept."
+msgstr ""
+
+#: assets/admin.js:1339
+#: assets/admin.js:1342
+#: assets/ebay.js:425
+msgid "Disconnect"
+msgstr ""
+
+#: assets/admin.js:1340
+msgid "Disconnected"
+msgstr ""
+
+#: assets/admin.js:1347
+#: assets/ebay.js:430
+msgid "Needs reconnect"
+msgstr ""
+
+#: assets/admin.js:1347
+#: assets/ebay.js:430
+#: assets/feeds.js:58
+#: assets/feeds.js:70
+msgid "Connected"
+msgstr ""
+
+#: assets/admin.js:1348
+msgid "Shop #"
+msgstr ""
+
+#: assets/admin.js:1348
+msgid " · connected "
+msgstr ""
+
+#: assets/admin.js:1349
+msgid "View shop"
+msgstr ""
+
+#: assets/admin.js:1354
+msgid "Your app keys are saved. Now approve access on Etsy."
+msgstr ""
+
+#: assets/admin.js:1359
+msgid "Checking…"
+msgstr ""
+
+#: assets/admin.js:1360
+msgid "Keys saved and accepted by Etsy"
+msgstr ""
+
+#: assets/admin.js:1362
+msgid "Your Etsy app"
+msgstr ""
+
+#: assets/admin.js:1362
+msgid "From <a href=\"https://www.etsy.com/developers/your-apps\" target=\"_blank\" rel=\"noopener\">etsy.com/developers/your-apps</a>."
+msgstr ""
+
+#: assets/admin.js:1364
+msgid "Callback URL (add this to your Etsy app)"
+msgstr ""
+
+#: assets/admin.js:1375
+msgid "Changes apply to future syncs. Saved settings never change Etsy until a product is synced."
+msgstr ""
+
+#: assets/admin.js:1394
+msgid "Search messages…"
+msgstr ""
+
+#: assets/admin.js:1398
+msgid "Clear the activity log?"
+msgstr ""
+
+#: assets/admin.js:1398
+msgid "All log entries will be removed. Syncing isn’t affected."
+msgstr ""
+
+#: assets/admin.js:1398
+#: assets/admin.js:1399
+msgid "Clear log"
+msgstr ""
+
+#: assets/admin.js:1398
+msgid "Log cleared"
+msgstr ""
+
+#: assets/admin.js:1400
+msgid "eBay activity"
+msgstr ""
+
+#: assets/admin.js:1400
+msgid "Etsy activity"
+msgstr ""
+
+#: assets/admin.js:1400
+msgid "Everything that happened in the last 30 days."
+msgstr ""
+
+#: assets/admin.js:1406
+#: assets/feeds.js:91
+msgid "Warnings"
+msgstr ""
+
+#: assets/admin.js:1406
+msgid "Success"
+msgstr ""
+
+#: assets/admin.js:1406
+msgid "Info"
+msgstr ""
+
+#: assets/admin.js:1412
+msgid "Edit product"
+msgstr ""
+
+#: assets/admin.js:1414
+msgid "Nothing to show"
+msgstr ""
+
+#: assets/admin.js:1414
+msgid "No activity matches."
+msgstr ""
+
+#: assets/admin.js:1416
+msgid "← Newer"
+msgstr ""
+
+#: assets/admin.js:1418
+msgid "Older →"
+msgstr ""
+
+#: assets/ebay.js:46
+msgid "Syncing with eBay…"
+msgstr ""
+
+#: assets/ebay.js:46
+msgid " remaining. You can leave this page."
+msgstr ""
+
+#: assets/ebay.js:51
+msgid "While WP-Lister is running, both plugins would change your eBay stock, so <strong>eBay → WooCommerce stock is paused</strong> here. Once you’ve linked your listings below, deactivate WP-Lister in Plugins and this plugin takes over."
+msgstr ""
+
+#: assets/ebay.js:60
+msgid "Describe the item, e.g. \"gecko hide\" or \"slate coaster\"…"
+msgstr ""
+
+#: assets/ebay.js:65
+msgid "Choose an eBay category…"
+msgstr ""
+
+#: assets/ebay.js:69
+msgid "Type at least 2 letters to search eBay’s categories."
+msgstr ""
+
+#: assets/ebay.js:73
+msgid "No suggestions. Try different words."
+msgstr ""
+
+#: assets/ebay.js:77
+msgid " · ID "
+msgstr ""
+
+#: assets/ebay.js:109
+msgid "Connected to eBay"
+msgstr ""
+
+#: assets/ebay.js:109
+msgid "Signed in as <strong>"
+msgstr ""
+
+#: assets/ebay.js:110
+msgid "eBay connection failed"
+msgstr ""
+
+#: assets/ebay.js:111
+msgid "eBay needs you to reconnect"
+msgstr ""
+
+#: assets/ebay.js:111
+msgid "Your saved eBay login stopped working."
+msgstr ""
+
+#: assets/ebay.js:115
+msgid "Connect your eBay account to list products and keep stock in sync."
+msgstr ""
+
+#: assets/ebay.js:122
+msgid "eBay account connected"
+msgstr ""
+
+#: assets/ebay.js:123
+msgid "Default eBay category"
+msgstr ""
+
+#: assets/ebay.js:123
+#: assets/ebay.js:124
+#: assets/ebay.js:125
+msgid "Needed to list new products"
+msgstr ""
+
+#: assets/ebay.js:124
+msgid "Postage, returns & payment policies"
+msgstr ""
+
+#: assets/ebay.js:125
+#: assets/ebay.js:485
+msgid "Item location"
+msgstr ""
+
+#: assets/ebay.js:126
+msgid "Sold-out listings kept alive"
+msgstr ""
+
+#: assets/ebay.js:126
+msgid "eBay hides them at 0 instead of ending them"
+msgstr ""
+
+#: assets/ebay.js:126
+msgid "Switch on so listings aren’t ended when they sell out"
+msgstr ""
+
+#: assets/ebay.js:129
+msgid "Coming from WP-Lister?"
+msgstr ""
+
+#: assets/ebay.js:129
+msgid "We found <strong>"
+msgstr ""
+
+#: assets/ebay.js:136
+#: assets/ebay.js:254
+msgid "On eBay"
+msgstr ""
+
+#: assets/ebay.js:138
+msgid "successful eBay updates"
+msgstr ""
+
+#: assets/ebay.js:139
+msgid "eBay orders checked"
+msgstr ""
+
+#: assets/ebay.js:139
+msgid "eBay → Woo stock is off"
+msgstr ""
+
+#: assets/ebay.js:142
+msgid "Recent eBay activity"
+msgstr ""
+
+#: assets/ebay.js:145
+#: assets/ebay.js:351
+msgid "Link existing eBay listings"
+msgstr ""
+
+#: assets/ebay.js:145
+msgid "Import from WP-Lister or match by SKU."
+msgstr ""
+
+#: assets/ebay.js:146
+msgid "Sync products to eBay"
+msgstr ""
+
+#: assets/ebay.js:146
+msgid "List new products or update existing listings."
+msgstr ""
+
+#: assets/ebay.js:147
+msgid "Send all stock to eBay"
+msgstr ""
+
+#: assets/ebay.js:148
+msgid "Check eBay orders now"
+msgstr ""
+
+#: assets/ebay.js:148
+msgid "Take new eBay sales off WooCommerce stock."
+msgstr ""
+
+#: assets/ebay.js:148
+msgid " sale(s)"
+msgstr ""
+
+#: assets/ebay.js:148
+msgid "No new eBay sales"
+msgstr ""
+
+#: assets/ebay.js:157
+msgid "eBay activity will show up here."
+msgstr ""
+
+#: assets/ebay.js:183
+msgid "e.g. YourName-MyShopSy-PRD-a1b2c3d4e-5f6a7b8c"
+msgstr ""
+
+#: assets/ebay.js:185
+msgid "e.g. Your_Name-YourName-MyShop-abcdefgh"
+msgstr ""
+
+#: assets/ebay.js:189
+msgid "Checking with eBay…"
+msgstr ""
+
+#: assets/ebay.js:191
+msgid "eBay accepted your keys"
+msgstr ""
+
+#: assets/ebay.js:195
+#: assets/ebay.js:424
+msgid "Opening eBay…"
+msgstr ""
+
+#: assets/ebay.js:197
+msgid "Connect my eBay account"
+msgstr ""
+
+#: assets/ebay.js:202
+msgid "Connect your eBay account"
+msgstr ""
+
+#: assets/ebay.js:203
+msgid "Like Etsy, eBay needs your own free developer keys. It takes about 10 minutes, once."
+msgstr ""
+
+#: assets/ebay.js:205
+msgid "eBay only accepts secure (https://) addresses for sign-in and photos. Switch your site to HTTPS first."
+msgstr ""
+
+#: assets/ebay.js:207
+msgid "Create a free eBay developer account and production keys"
+msgstr ""
+
+#: assets/ebay.js:207
+msgid "Sign up with any email, then open “Application Keys” and click “Create a keyset” under Production."
+msgstr ""
+
+#: assets/ebay.js:208
+msgid "Open eBay Application Keys"
+msgstr ""
+
+#: assets/ebay.js:209
+msgid "Tell eBay where to send account-deletion notices"
+msgstr ""
+
+#: assets/ebay.js:209
+msgid "eBay asks for this before it switches the keys on. Click “Alerts & Notifications” next to your production keyset, choose “Marketplace Account Deletion”, and paste these two values. This plugin answers eBay’s check automatically."
+msgstr ""
+
+#: assets/ebay.js:210
+#: assets/ebay.js:434
+msgid "Notification endpoint"
+msgstr ""
+
+#: assets/ebay.js:211
+#: assets/ebay.js:434
+msgid "Verification token"
+msgstr ""
+
+#: assets/ebay.js:212
+msgid "Add a sign-in redirect (RuName)"
+msgstr ""
+
+#: assets/ebay.js:212
+msgid "Open “User Tokens” for the production keyset → “Get a Token from eBay via Your Application” → “Add eBay Redirect URL”. Fill in the three addresses below, tick <em>OAuth enabled</em>, save, then copy the <strong>RuName</strong> (eBay Redirect URL name) it shows."
+msgstr ""
+
+#: assets/ebay.js:213
+msgid "Your auth accepted URL — and the declined URL"
+msgstr ""
+
+#: assets/ebay.js:214
+msgid "Your privacy policy URL"
+msgstr ""
+
+#: assets/ebay.js:215
+msgid "Paste your keys"
+msgstr ""
+
+#: assets/ebay.js:215
+msgid "App ID is also called Client ID; Cert ID is also called Client Secret."
+msgstr ""
+
+#: assets/ebay.js:217
+msgid "App ID (Client ID)"
+msgstr ""
+
+#: assets/ebay.js:217
+msgid "Cert ID (Client Secret)"
+msgstr ""
+
+#: assets/ebay.js:218
+msgid "RuName (eBay redirect URL name)"
+msgstr ""
+
+#: assets/ebay.js:218
+msgid "A short name like <code>YourName-YourName-WooSyn-abcdef</code> – not a web address. If you paste eBay’s long “Test sign-in” link instead, the RuName is picked out of it automatically."
+msgstr ""
+
+#: assets/ebay.js:224
+msgid "You’ll sign in on eBay and approve access, then come straight back here."
+msgstr ""
+
+#: assets/ebay.js:224
+msgid "Save your keys first."
+msgstr ""
+
+#: assets/ebay.js:237
+msgid "eBay products"
+msgstr ""
+
+#: assets/ebay.js:237
+msgid "List products on eBay, update them, or see what went wrong."
+msgstr ""
+
+#: assets/ebay.js:237
+#: assets/ebay.js:417
+msgid "Connect eBay first"
+msgstr ""
+
+#: assets/ebay.js:247
+msgid " queued for eBay"
+msgstr ""
+
+#: assets/ebay.js:261
+#: assets/product.js:104
+msgid "Updated on eBay"
+msgstr ""
+
+#: assets/ebay.js:262
+msgid "List on eBay"
+msgstr ""
+
+#: assets/ebay.js:268
+#: assets/ebay.js:291
+msgid "Open on eBay"
+msgstr ""
+
+#: assets/ebay.js:275
+msgid " products to eBay?"
+msgstr ""
+
+#: assets/ebay.js:275
+msgid "New eBay listings are created for products that aren’t on eBay yet, and linked listings are updated. eBay may charge insertion fees for new listings."
+msgstr ""
+
+#: assets/ebay.js:276
+msgid "Sync all"
+msgstr ""
+
+#: assets/ebay.js:290
+msgid "eBay validates the listing (and shows fees) without listing it."
+msgstr ""
+
+#: assets/ebay.js:291
+msgid "View the listing."
+msgstr ""
+
+#: assets/ebay.js:292
+msgid "Link to an existing eBay listing"
+msgstr ""
+
+#: assets/ebay.js:292
+msgid "Already on eBay? Paste its link or item number."
+msgstr ""
+
+#: assets/ebay.js:293
+msgid "Stop syncing. The eBay listing stays live."
+msgstr ""
+
+#: assets/ebay.js:294
+#: assets/ebay.js:534
+msgid "End the eBay listing"
+msgstr ""
+
+#: assets/ebay.js:294
+msgid "End the listing on eBay and unlink."
+msgstr ""
+
+#: assets/ebay.js:295
+msgid "Allow syncing to eBay"
+msgstr ""
+
+#: assets/ebay.js:295
+msgid "Never sync to eBay"
+msgstr ""
+
+#: assets/ebay.js:296
+msgid "Edit product & eBay overrides"
+msgstr ""
+
+#: assets/ebay.js:296
+msgid "Title, category, item specifics (see the “eBay” tab)."
+msgstr ""
+
+#: assets/ebay.js:301
+msgid "End this eBay listing?"
+msgstr ""
+
+#: assets/ebay.js:301
+msgid "Unlink from eBay?"
+msgstr ""
+
+#: assets/ebay.js:301
+msgid "The listing will be ended on eBay. You can relist it on eBay later."
+msgstr ""
+
+#: assets/ebay.js:301
+msgid "The product stops syncing; the eBay listing stays as it is."
+msgstr ""
+
+#: assets/ebay.js:301
+msgid "End listing"
+msgstr ""
+
+#: assets/ebay.js:302
+msgid "Listing ended"
+msgstr ""
+
+#: assets/ebay.js:307
+msgid "Link to an eBay listing"
+msgstr ""
+
+#: assets/ebay.js:307
+msgid "eBay listing link or item number"
+msgstr ""
+
+#: assets/ebay.js:320
+msgid " Asking eBay…"
+msgstr ""
+
+#: assets/ebay.js:327
+msgid "Category ID"
+msgstr ""
+
+#: assets/ebay.js:328
+msgid "per variation"
+msgstr ""
+
+#: assets/ebay.js:334
+msgid "Not ready for eBay yet"
+msgstr ""
+
+#: assets/ebay.js:335
+msgid "eBay accepted this listing"
+msgstr ""
+
+#: assets/ebay.js:335
+msgid "Ready"
+msgstr ""
+
+#: assets/ebay.js:335
+msgid "eBay checked it and it would list fine"
+msgstr ""
+
+#: assets/ebay.js:335
+#: assets/product.js:112
+msgid " (estimated fees "
+msgstr ""
+
+#: assets/ebay.js:335
+msgid "<br>Note: "
+msgstr ""
+
+#: assets/ebay.js:342
+msgid "Check failed"
+msgstr ""
+
+#: assets/ebay.js:351
+msgid "Connect listings that are already live on eBay to your products so stock stays in sync. <strong>Nothing on eBay is changed</strong> by this step."
+msgstr ""
+
+#: assets/ebay.js:359
+msgid " listing links from WP-Lister"
+msgstr ""
+
+#: assets/ebay.js:360
+msgid "Import again"
+msgstr ""
+
+#: assets/ebay.js:360
+msgid "Import from WP-Lister"
+msgstr ""
+
+#: assets/ebay.js:361
+msgid "Step 1 · Import from WP-Lister"
+msgstr ""
+
+#: assets/ebay.js:361
+msgid "Imported already"
+msgstr ""
+
+#: assets/ebay.js:367
+msgid "Step 2 · "
+msgstr ""
+
+#: assets/ebay.js:367
+msgid "Match the rest by SKU"
+msgstr ""
+
+#: assets/ebay.js:367
+msgid "Scans your active eBay listings and matches their SKUs (including variation SKUs) to WooCommerce products."
+msgstr ""
+
+#: assets/ebay.js:375
+msgid "Scanning your eBay listings…"
+msgstr ""
+
+#: assets/ebay.js:377
+msgid "stock will sync"
+msgstr ""
+
+#: assets/ebay.js:378
+msgid "eBay: "
+msgstr ""
+
+#: assets/ebay.js:379
+msgid "Give the product the same SKU as on eBay, or link it by hand from the product’s eBay tab."
+msgstr ""
+
+#: assets/ebay.js:383
+msgid "Next: line up the stock"
+msgstr ""
+
+#: assets/ebay.js:383
+msgid "When you’re happy with the links (and WP-Lister is switched off), send WooCommerce stock to eBay so both sides agree."
+msgstr ""
+
+#: assets/ebay.js:384
+msgid "Send WooCommerce stock to eBay"
+msgstr ""
+
+#: assets/ebay.js:401
+msgid "Policies & location"
+msgstr ""
+
+#: assets/ebay.js:401
+msgid "Item specifics & safety"
+msgstr ""
+
+#: assets/ebay.js:405
+msgid "You have unsaved eBay changes"
+msgstr ""
+
+#: assets/ebay.js:412
+msgid "eBay settings saved"
+msgstr ""
+
+#: assets/ebay.js:417
+msgid "These options come from your eBay account."
+msgstr ""
+
+#: assets/ebay.js:425
+msgid "Disconnect eBay?"
+msgstr ""
+
+#: assets/ebay.js:425
+msgid "eBay syncing stops until you connect again. Product links are kept."
+msgstr ""
+
+#: assets/ebay.js:428
+msgid "eBay account"
+msgstr ""
+
+#: assets/ebay.js:431
+msgid "SANDBOX · "
+msgstr ""
+
+#: assets/ebay.js:431
+msgid "Connected "
+msgstr ""
+
+#: assets/ebay.js:431
+msgid " · login renews automatically; must be re-approved within "
+msgstr ""
+
+#: assets/ebay.js:433
+msgid "Developer keys & notifications"
+msgstr ""
+
+#: assets/ebay.js:433
+msgid "Only needed if you change your eBay keyset."
+msgstr ""
+
+#: assets/ebay.js:434
+msgid "Auth accepted / declined URL"
+msgstr ""
+
+#: assets/ebay.js:441
+msgid "eBay site"
+msgstr ""
+
+#: assets/ebay.js:441
+msgid "Sell on"
+msgstr ""
+
+#: assets/ebay.js:441
+msgid "Prices are sent in that site’s currency. Your store uses "
+msgstr ""
+
+#: assets/ebay.js:442
+msgid "Used when a product’s category isn’t mapped and it has no eBay category of its own (old WP-Lister categories are reused automatically)."
+msgstr ""
+
+#: assets/ebay.js:444
+msgid "Item details"
+msgstr ""
+
+#: assets/ebay.js:446
+msgid "eBay allows <strong>80 characters</strong>. Use <code>{title}</code>, <code>{sku}</code>, <code>{category}</code>. A product’s own eBay title (or old WP-Lister title) always wins."
+msgstr ""
+
+#: assets/ebay.js:447
+msgid "Links and scripts are removed automatically — eBay doesn’t allow them."
+msgstr ""
+
+#: assets/ebay.js:468
+msgid "WooCommerce category → eBay category"
+msgstr ""
+
+#: assets/ebay.js:468
+msgid "Search eBay’s categories by describing the item."
+msgstr ""
+
+#: assets/ebay.js:475
+msgid "No business policies found"
+msgstr ""
+
+#: assets/ebay.js:475
+msgid "eBay listings need postage, returns and payment policies. Create them in eBay (<a href=\"https://"
+msgstr ""
+
+#: assets/ebay.js:477
+msgid "Postage policy"
+msgstr ""
+
+#: assets/ebay.js:478
+msgid "Returns policy"
+msgstr ""
+
+#: assets/ebay.js:479
+msgid "Payment policy"
+msgstr ""
+
+#: assets/ebay.js:482
+msgid "Couldn’t load your eBay policies"
+msgstr ""
+
+#: assets/ebay.js:484
+msgid "Business policies"
+msgstr ""
+
+#: assets/ebay.js:484
+msgid "eBay’s postage, returns and payment rules for new listings."
+msgstr ""
+
+#: assets/ebay.js:484
+msgid "Refresh"
+msgstr ""
+
+#: assets/ebay.js:485
+msgid "Where you post from — shown to buyers."
+msgstr ""
+
+#: assets/ebay.js:485
+#: assets/ebay.js:498
+msgid "Postcode"
+msgstr ""
+
+#: assets/ebay.js:485
+msgid "Town / area"
+msgstr ""
+
+#: assets/ebay.js:485
+#: assets/ebay.js:498
+msgid "Country code"
+msgstr ""
+
+#: assets/ebay.js:490
+msgid "eBay requires some specifics (like Brand) in most categories. These are added to every listing; products can add their own on their eBay tab, and “Check with eBay” tells you if anything is missing."
+msgstr ""
+
+#: assets/ebay.js:491
+#: assets/feeds.js:210
+msgid "Brand"
+msgstr ""
+
+#: assets/ebay.js:491
+msgid "Your shop"
+msgstr ""
+
+#: assets/ebay.js:491
+msgid " or Unbranded"
+msgstr ""
+
+#: assets/ebay.js:491
+msgid "Does Not Apply"
+msgstr ""
+
+#: assets/ebay.js:492
+msgid "Extra specifics for every listing"
+msgstr ""
+
+#: assets/ebay.js:492
+msgid ""
+"Material: Cotton\n"
+"Country/Region of Manufacture: "
+msgstr ""
+
+#: assets/ebay.js:492
+msgid "One per line as <code>Name: Value</code>. Use <code>|</code> for several values."
+msgstr ""
+
+#: assets/ebay.js:495
+msgid "Product safety (GPSR)"
+msgstr ""
+
+#: assets/ebay.js:495
+msgid "Buyers in the EU must see who made the product. Fill this in if you sell to EU buyers on eBay."
+msgstr ""
+
+#: assets/ebay.js:497
+msgid "Company name"
+msgstr ""
+
+#: assets/ebay.js:497
+msgid "Street"
+msgstr ""
+
+#: assets/ebay.js:498
+msgid "Town"
+msgstr ""
+
+#: assets/ebay.js:499
+msgid "Email"
+msgstr ""
+
+#: assets/ebay.js:499
+msgid "Phone"
+msgstr ""
+
+#: assets/ebay.js:504
+msgid "Price on eBay"
+msgstr ""
+
+#: assets/ebay.js:504
+msgid "eBay fees are higher than your own shop’s, so many sellers add a little on top."
+msgstr ""
+
+#: assets/ebay.js:508
+msgid "Amount (minus to lower)"
+msgstr ""
+
+#: assets/ebay.js:509
+msgid "Up to .99"
+msgstr ""
+
+#: assets/ebay.js:513
+msgid "Switching on…"
+msgstr ""
+
+#: assets/ebay.js:513
+msgid "Switched on in your eBay account"
+msgstr ""
+
+#: assets/ebay.js:513
+msgid "eBay refused – see Activity"
+msgstr ""
+
+#: assets/ebay.js:513
+msgid "Switched on ✓"
+msgstr ""
+
+#: assets/ebay.js:513
+msgid "Switch on now"
+msgstr ""
+
+#: assets/ebay.js:515
+msgid "WooCommerce → eBay"
+msgstr ""
+
+#: assets/ebay.js:521
+msgid "eBay → WooCommerce"
+msgstr ""
+
+#: assets/ebay.js:522
+msgid "Paused while WP-Lister is active"
+msgstr ""
+
+#: assets/ebay.js:524
+msgid "Check eBay for new orders every"
+msgstr ""
+
+#: assets/ebay.js:533
+msgid "Turn things off if you edit them directly on eBay. These also apply to listings linked from WP-Lister."
+msgstr ""
+
+#: assets/ebay.js:533
+msgid "Prices & variations"
+msgstr ""
+
+#: assets/ebay.js:534
+msgid "Leave it alone"
+msgstr ""
+
+#: assets/ebay.js:538
+msgid "eBay settings"
+msgstr ""
+
+#: assets/ebay.js:538
+msgid "These only affect eBay. Etsy has its own settings."
+msgstr ""
+
+#: assets/ebay.js:558
+msgid "eBay not connected"
+msgstr ""
+
+#: assets/ebay.js:562
+#: assets/feeds.js:239
+msgid "Overview"
+msgstr ""
+
+#: assets/feeds.js:24
+msgid "Not set up"
+msgstr ""
+
+#: assets/feeds.js:25
+msgid "Collected "
+msgstr ""
+
+#: assets/feeds.js:26
+msgid "Waiting for "
+msgstr ""
+
+#: assets/feeds.js:37
+msgid "List products and keep stock in step both ways."
+msgstr ""
+
+#: assets/feeds.js:39
+#: assets/feeds.js:44
+msgid " products linked"
+msgstr ""
+
+#: assets/feeds.js:39
+#: assets/feeds.js:44
+msgid "Keys saved – finish connecting"
+msgstr ""
+
+#: assets/feeds.js:40
+msgid "≈ 10 min · your own free Etsy key"
+msgstr ""
+
+#: assets/feeds.js:43
+msgid "List products and keep stock in step both ways. Takes over from WP-Lister."
+msgstr ""
+
+#: assets/feeds.js:45
+msgid "≈ 10 min · your own free eBay keys"
+msgstr ""
+
+#: assets/feeds.js:50
+msgid "≈ 2 min · copy one link"
+msgstr ""
+
+#: assets/feeds.js:58
+msgid "Set-up not finished"
+msgstr ""
+
+#: assets/feeds.js:59
+msgid "Two-way stock sync"
+msgstr ""
+
+#: assets/feeds.js:59
+msgid "Product feed"
+msgstr ""
+
+#: assets/feeds.js:64
+msgid "Connect"
+msgstr ""
+
+#: assets/feeds.js:69
+msgid "Your selling platforms"
+msgstr ""
+
+#: assets/feeds.js:69
+msgid "Connect WooCommerce to everywhere you sell. Your website stays in charge of products and stock."
+msgstr ""
+
+#: assets/feeds.js:71
+msgid "Add another platform"
+msgstr ""
+
+#: assets/feeds.js:71
+msgid "Add a platform"
+msgstr ""
+
+#: assets/feeds.js:72
+msgid " – people buy on the marketplace, so stock syncs both ways."
+msgstr ""
+
+#: assets/feeds.js:74
+msgid "Shopping & social"
+msgstr ""
+
+#: assets/feeds.js:74
+msgid " – your products show there, and buyers check out on your website."
+msgstr ""
+
+#: assets/feeds.js:76
+msgid "Don’t see yours? Most shopping and comparison sites accept a product feed – use <a href=\"#/feeds/other\">Any other site</a>. Marketplaces like Amazon, OnBuy and TikTok Shop need their own connector."
+msgstr ""
+
+#: assets/feeds.js:85
+msgid "Rebuilding…"
+msgstr ""
+
+#: assets/feeds.js:85
+msgid "Feed rebuilt"
+msgstr ""
+
+#: assets/feeds.js:85
+msgid "Rebuild now"
+msgstr ""
+
+#: assets/feeds.js:86
+msgid "Preview products"
+msgstr ""
+
+#: assets/feeds.js:87
+msgid "What the platforms see"
+msgstr ""
+
+#: assets/feeds.js:87
+msgid "Rebuilt "
+msgstr ""
+
+#: assets/feeds.js:87
+msgid " – it updates by itself within a couple of minutes of any product or stock change, and every hour."
+msgstr ""
+
+#: assets/feeds.js:87
+msgid "The feed is built the first time you turn a platform on."
+msgstr ""
+
+#: assets/feeds.js:89
+msgid "Items in the feed"
+msgstr ""
+
+#: assets/feeds.js:89
+msgid " products (each variation counts)"
+msgstr ""
+
+#: assets/feeds.js:90
+msgid "Left out"
+msgstr ""
+
+#: assets/feeds.js:90
+msgid "hidden, private or excluded"
+msgstr ""
+
+#: assets/feeds.js:91
+msgid "see below"
+msgstr ""
+
+#: assets/feeds.js:91
+msgid "all good"
+msgstr ""
+
+#: assets/feeds.js:100
+msgid "Feed preview"
+msgstr ""
+
+#: assets/feeds.js:103
+msgid "First "
+msgstr ""
+
+#: assets/feeds.js:103
+msgid " items, exactly as platforms receive them."
+msgstr ""
+
+#: assets/feeds.js:105
+msgid "Availability"
+msgstr ""
+
+#: assets/feeds.js:120
+msgid "Shopping & social feeds"
+msgstr ""
+
+#: assets/feeds.js:120
+msgid "Your products on Google, Facebook, Instagram, Pinterest and more – updated automatically."
+msgstr ""
+
+#: assets/feeds.js:121
+msgid "Most platforms only accept feeds and photos on https:// addresses."
+msgstr ""
+
+#: assets/feeds.js:122
+msgid "Your feeds"
+msgstr ""
+
+#: assets/feeds.js:125
+msgid "No feeds yet"
+msgstr ""
+
+#: assets/feeds.js:125
+msgid "Pick a platform on the <a href=\"#/platforms\">All platforms</a> page to get started."
+msgstr ""
+
+#: assets/feeds.js:127
+msgid "Add another"
+msgstr ""
+
+#: assets/feeds.js:139
+msgid "Creating your feed…"
+msgstr ""
+
+#: assets/feeds.js:141
+msgid "Create my "
+msgstr ""
+
+#: assets/feeds.js:147
+msgid "Feed created"
+msgstr ""
+
+#: assets/feeds.js:147
+msgid "Create your feed"
+msgstr ""
+
+#: assets/feeds.js:147
+msgid "Your products (with live prices and stock) are published at a private link."
+msgstr ""
+
+#: assets/feeds.js:147
+msgid "One click. Nothing is sent anywhere until you paste the link into "
+msgstr ""
+
+#: assets/feeds.js:148
+msgid "Copy your private feed link"
+msgstr ""
+
+#: assets/feeds.js:148
+msgid "Spreadsheet (CSV) version, if the site asks for one:"
+msgstr ""
+
+#: assets/feeds.js:148
+msgid "Appears here after step 1."
+msgstr ""
+
+#: assets/feeds.js:149
+msgid "Paste it into "
+msgstr ""
+
+#: assets/feeds.js:151
+msgid "Open "
+msgstr ""
+
+#: assets/feeds.js:152
+msgid "Done – it keeps itself up to date"
+msgstr ""
+
+#: assets/feeds.js:152
+msgid " collected your feed "
+msgstr ""
+
+#: assets/feeds.js:152
+msgid "This turns green once "
+msgstr ""
+
+#: assets/feeds.js:152
+msgid " has collected the feed for the first time – usually within a few hours of step 3."
+msgstr ""
+
+#: assets/feeds.js:152
+msgid " Price and stock changes go out on the next collection ("
+msgstr ""
+
+#: assets/feeds.js:152
+msgid "Your website is the only place you manage products and stock."
+msgstr ""
+
+#: assets/feeds.js:155
+msgid "Options for "
+msgstr ""
+
+#: assets/feeds.js:156
+msgid "Price adjustment for this platform (%)"
+msgstr ""
+
+#: assets/feeds.js:159
+msgid "Saved – applies on the next rebuild"
+msgstr ""
+
+#: assets/feeds.js:160
+msgid "Save"
+msgstr ""
+
+#: assets/feeds.js:160
+msgid "Leave at 0 to use your website prices (recommended – Google checks they match your site)."
+msgstr ""
+
+#: assets/feeds.js:162
+msgid "Make a new link?"
+msgstr ""
+
+#: assets/feeds.js:162
+msgid "The old link stops working straight away, so you’ll need to paste the new one into "
+msgstr ""
+
+#: assets/feeds.js:162
+msgid "Make new link"
+msgstr ""
+
+#: assets/feeds.js:162
+msgid "New private link"
+msgstr ""
+
+#: assets/feeds.js:163
+msgid "Turn off this feed?"
+msgstr ""
+
+#: assets/feeds.js:163
+msgid " will stop receiving updates (and will eventually remove the products)."
+msgstr ""
+
+#: assets/feeds.js:163
+msgid "Turn off"
+msgstr ""
+
+#: assets/feeds.js:168
+msgid "You already have a plugin for this"
+msgstr ""
+
+#: assets/feeds.js:169
+msgid " needs https:// links for your feed and photos."
+msgstr ""
+
+#: assets/feeds.js:191
+msgid "Feed settings saved – rebuilding shortly"
+msgstr ""
+
+#: assets/feeds.js:192
+msgid "Save feed settings"
+msgstr ""
+
+#: assets/feeds.js:199
+msgid "Same as parent"
+msgstr ""
+
+#: assets/feeds.js:199
+msgid "Use the default"
+msgstr ""
+
+#: assets/feeds.js:202
+msgid " Leave this category out of feeds"
+msgstr ""
+
+#: assets/feeds.js:206
+#: assets/feeds.js:239
+msgid "Feed settings"
+msgstr ""
+
+#: assets/feeds.js:206
+msgid "Shared by every shopping and social platform."
+msgstr ""
+
+#: assets/feeds.js:209
+msgid "Product details"
+msgstr ""
+
+#: assets/feeds.js:210
+msgid "Your shop or brand name. Handmade items without barcodes are sent as “no identifier”, which is correct."
+msgstr ""
+
+#: assets/feeds.js:211
+msgid "Refurbished"
+msgstr ""
+
+#: assets/feeds.js:212
+msgid "Variations"
+msgstr ""
+
+#: assets/feeds.js:212
+msgid "Each variation is its own item (recommended)"
+msgstr ""
+
+#: assets/feeds.js:212
+msgid "Exact price, photo and stock for every colour/size."
+msgstr ""
+
+#: assets/feeds.js:212
+msgid "One item per product"
+msgstr ""
+
+#: assets/feeds.js:212
+msgid "Smaller feed; shows the lowest price."
+msgstr ""
+
+#: assets/feeds.js:213
+msgid "Formatting and links are removed automatically."
+msgstr ""
+
+#: assets/feeds.js:216
+msgid "Google product categories"
+msgstr ""
+
+#: assets/feeds.js:216
+msgid "Optional but helps Google and Meta show your products in the right places. Start typing for suggestions."
+msgstr ""
+
+#: assets/feeds.js:217
+msgid "e.g. Home & Garden > Decor"
+msgstr ""
+
+#: assets/feeds.js:218
+msgid "By WooCommerce category"
+msgstr ""
+
+#: assets/product.js:27
+msgid "Sending to Etsy…"
+msgstr ""
+
+#: assets/product.js:29
+msgid " — listing "
+msgstr ""
+
+#: assets/product.js:30
+#: assets/product.js:105
+msgid "Sync failed"
+msgstr ""
+
+#: assets/product.js:33
+msgid "Loading…"
+msgstr ""
+
+#: assets/product.js:38
+#: assets/product.js:113
+msgid "Title: "
+msgstr ""
+
+#: assets/product.js:38
+msgid "Price: "
+msgstr ""
+
+#: assets/product.js:38
+msgid "Quantity: "
+msgstr ""
+
+#: assets/product.js:38
+msgid "Tags: "
+msgstr ""
+
+#: assets/product.js:38
+#: assets/product.js:113
+msgid "Photos: "
+msgstr ""
+
+#: assets/product.js:41
+msgid "Variations:"
+msgstr ""
+
+#: assets/product.js:48
+msgid "Stop syncing this product with its Etsy listing? (The listing stays on Etsy.)"
+msgstr ""
+
+#: assets/product.js:49
+#: assets/product.js:121
+msgid "Unlinked. Reload the page to refresh."
+msgstr ""
+
+#: assets/product.js:53
+#: assets/product.js:124
+msgid "Linking…"
+msgstr ""
+
+#: assets/product.js:54
+#: assets/product.js:125
+msgid "Linked! Stock will now sync. Reload the page to refresh."
+msgstr ""
+
+#: assets/product.js:103
+msgid "Sending to eBay…"
+msgstr ""
+
+#: assets/product.js:104
+msgid " — item "
+msgstr ""
+
+#: assets/product.js:108
+msgid "Asking eBay…"
+msgstr ""
+
+#: assets/product.js:112
+msgid "✓ eBay accepted this listing"
+msgstr ""
+
+#: assets/product.js:113
+msgid "Category: "
+msgstr ""
+
+#: assets/product.js:120
+msgid "Stop syncing this product with its eBay listing? (The listing stays live.)"
+msgstr ""
