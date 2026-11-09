@@ -1,3 +1,8 @@
+<a href="buymeacoffee.com/zombiesloveme" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+# Introduction
+I got fed up of paying 3 different plugin companies to list products on selling channels, especially when they are just using AI now to develop said plugins and charge a premium for it, so i decided to just get claude to make it for me and while it was at it make it better, so i present to you a marketplace sync for woocommerce that works and is free, so enjoy and happy selling!
+
 # Marketplace Sync for WooCommerce
 
 Sell everywhere from one WooCommerce shop. Your website stays in charge of products, prices and stock.
@@ -34,14 +39,6 @@ No middleman servers: the plugin talks straight to each platform with your own k
 ## Updates
 
 Sites installed from a release zip update themselves from this repository. When a new release is published, WordPress shows the normal **Update available** button within a few hours. **Plugins → Marketplace Sync → Check for updates** checks straight away.
-
-## Publishing a new version (for the repo owner)
-
-1. Commit your changes.
-2. On GitHub: **Releases → Draft a new release → Choose a tag**, type the new version number (e.g. `1.3.1`), then **Publish release**.
-3. The *Release* workflow builds `woo-etsy-sync.zip` and attaches it to the release. It sets the version number inside the plugin from the tag, so you don't need to edit any files.
-
-To build a zip on your own computer, run `bin/build-zip.sh 1.3.1 your-name/your-repo`. The zip is saved in `build/`.
 
 ## Translating
 
